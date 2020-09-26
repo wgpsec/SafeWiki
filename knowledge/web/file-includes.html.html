@@ -14,10 +14,10 @@
     </script>
     
     <!--loadable-components prefetch  -->
-    <link data-chunk="app" rel="preload" as="script" href="/assets/js/app.ceaffbcc.js">
-<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/vendors~LayoutWrapper.ceaffbcc.js">
-<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/LayoutWrapper.ceaffbcc.js">
-<link data-chunk="knowledge/web/file-includes.md" rel="preload" as="script" href="/assets/js/knowledge/web/file-includes.md.ceaffbcc.js"> 
+    <link data-chunk="app" rel="preload" as="script" href="/assets/js/app.5d90b578.js">
+<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/vendors~LayoutWrapper.5d90b578.js">
+<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/LayoutWrapper.5d90b578.js">
+<link data-chunk="knowledge/web/file-includes.md" rel="preload" as="script" href="/assets/js/knowledge/web/file-includes.md.5d90b578.js"> 
     <style>pre[class*="language-"].line-numbers {
 	position: relative;
 	padding-left: 3.8em;
@@ -26582,10 +26582,10 @@ http://127.0.0.1/include.php?file<span class="token operator">=</span>data://tex
 <span class="token keyword">require</span><span class="token punctuation">(</span><span class="token punctuation">)</span>		<span class="token comment">//使用此函数，只要程序执行，立即调用此函数包含文件发生错误时，会输出错误信息并立即终止程序。</span>
 <span class="token keyword">require_once</span><span class="token punctuation">(</span><span class="token punctuation">)</span>	<span class="token comment">//功能和前者一样，区别在于当重复调用同一文件时，程序只调用一次。</span></code></pre></div><p>代码审计的时候全局搜索以上函数</p><p>如果是基于图像上传的 ，要搜<code>$_FILES</code> 变量， 因为PHP处理上传文件的功能，基本都与$_FILES有关。</p><p>查看目录结构，重点关注includes、modules等文件夹，查看index.php等文件是否<strong>动态调用</strong>过这些内容，变量是否可控。</p><h1 class="__internal" id="修复方式">修复方式<a href="#%E4%BF%AE%E5%A4%8D%E6%96%B9%E5%BC%8F" aria-hidden="true" class="anchor">#</a></h1><blockquote><ol><li class="__internal">禁止远程文件包含 <code>allow_url_include=off</code></li><li class="__internal">配置 <code>open_basedir=指定目录</code>，限制访问区域。</li><li class="__internal">过滤<code>../</code>等特殊符号</li><li class="__internal">修改Apache日志文件的存放地址</li><li class="__internal">开启魔术引号 <code>magic_quotes_qpc=on</code></li><li class="__internal">尽量不要使用动态变量调用文件，直接写要包含的文件。</li></ol></blockquote></section><section class="prev-next-nav"></section></article></div></div></div></div></div></div></div>
      <!--loadable-components render area  -->
-    <script id="__LOADABLE_REQUIRED_CHUNKS__" type="application/json">[48,0,35]</script>
-<script async data-chunk="app" src="/assets/js/app.ceaffbcc.js"></script>
-<script async data-chunk="LayoutWrapper" src="/assets/js/vendors~LayoutWrapper.ceaffbcc.js"></script>
-<script async data-chunk="LayoutWrapper" src="/assets/js/LayoutWrapper.ceaffbcc.js"></script>
-<script async data-chunk="knowledge/web/file-includes.md" src="/assets/js/knowledge/web/file-includes.md.ceaffbcc.js"></script>
+    <script id="__LOADABLE_REQUIRED_CHUNKS__" type="application/json">[50,0,37]</script>
+<script async data-chunk="app" src="/assets/js/app.5d90b578.js"></script>
+<script async data-chunk="LayoutWrapper" src="/assets/js/vendors~LayoutWrapper.5d90b578.js"></script>
+<script async data-chunk="LayoutWrapper" src="/assets/js/LayoutWrapper.5d90b578.js"></script>
+<script async data-chunk="knowledge/web/file-includes.md" src="/assets/js/knowledge/web/file-includes.md.5d90b578.js"></script>
   </body>
 </html>

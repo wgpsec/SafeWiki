@@ -14,10 +14,10 @@
     </script>
     
     <!--loadable-components prefetch  -->
-    <link data-chunk="app" rel="preload" as="script" href="/assets/js/app.ceaffbcc.js">
-<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/vendors~LayoutWrapper.ceaffbcc.js">
-<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/LayoutWrapper.ceaffbcc.js">
-<link data-chunk="knowledge/hw/emergency-response.md" rel="preload" as="script" href="/assets/js/knowledge/hw/emergency-response.md.ceaffbcc.js"> 
+    <link data-chunk="app" rel="preload" as="script" href="/assets/js/app.5d90b578.js">
+<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/vendors~LayoutWrapper.5d90b578.js">
+<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/LayoutWrapper.5d90b578.js">
+<link data-chunk="knowledge/hw/emergency-response.md" rel="preload" as="script" href="/assets/js/knowledge/hw/emergency-response.md.5d90b578.js"> 
     <style>pre[class*="language-"].line-numbers {
 	position: relative;
 	padding-left: 3.8em;
@@ -26576,10 +26576,10 @@ ul.anticons-list li.copied:after {
 <span class="token comment">#安装软件的日志-&gt; Ubuntu</span>
 /var/log/apt/</code></pre></div><p><strong>/var/log/syslog：</strong>只记录警告信息，常常是系统出问题的信息；</p><blockquote><p>syslog是Linux系统默认的日志守护进程</p><p>默认的syslog配置文件是/etc/sysctl.conf文件</p><p><strong>syslog不可以使用vi等工具直接查看，它是二进制文件，使用 lastlog 查看</strong></p></blockquote><p>默认Centos，Fedora不生成该日志文件，但可以配置让系统生成该日志文件</p><p><code>/etc/rsyslog.conf</code>文件中加上：<code>*.warning /var/log/syslog</code> </p><p>该日志文件能记录当用户登录时login记录下的错误口令、Sendmail的问题、su命令执行失败等信息 </p><p><strong>正确清空syslog日志的方式</strong></p><div class="rcpress-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">cat</span> /dev/null <span class="token operator">&gt;</span> /etc/init.d/syslog</code></pre></div><h1 class="__internal" id="webshell检测">WebShell检测<a href="#webshell%E6%A3%80%E6%B5%8B" aria-hidden="true" class="anchor">#</a></h1><p>常见的检测方法有<strong>基于主机的流量-文件-日志检测</strong>、<strong>关键字(危险函数)匹配</strong>、<strong>语义分析</strong>等</p><p>更多检测方法可以在知网搜索相关文献</p><h3 class="__internal" id="网站被植入webshell的应急响应流程">网站被植入WebShell的应急响应流程<a href="#%E7%BD%91%E7%AB%99%E8%A2%AB%E6%A4%8D%E5%85%A5webshell%E7%9A%84%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94%E6%B5%81%E7%A8%8B" aria-hidden="true" class="anchor">#</a></h3><blockquote><p><strong>1、定位时间和范围</strong>：扫描WebShell位置，D盾、河马等工具；定位文件创建的时间；检查Web根目录.htaccess文件</p><p><strong>2、Web日志分析</strong>：例如查看access.log（Apache日志）在文件创建的时间的节点是否有可以上传</p><p><strong>3、漏洞分析</strong>：分析可能存在漏洞的地方，复现漏洞GetShell。</p><p><strong>4、漏洞修复</strong>：清除WebShell并修复漏洞</p><p><strong>5、对系统和Web应用进行安全加固</strong></p></blockquote><h1 class="__internal" id="查杀工具">查杀工具<a href="#%E6%9F%A5%E6%9D%80%E5%B7%A5%E5%85%B7" aria-hidden="true" class="anchor">#</a></h1><p><a href="http://www.clamav.net/download.html" target="_blank">杀软-Clamav</a></p><p><a href="http://www.chkrootkit.org/" target="_blank">chkrootkit</a>、<a href="http://rkhunter.sourceforge.net/" target="_blank">rkhunter</a></p><p><a href="https://www.shellpub.com/" target="_blank">河马webshell查杀</a></p><p><a href="https://github.com/grayddq/GScan" target="_blank">GScan自动化检测脚本</a></p></section><section class="prev-next-nav"></section></article></div></div></div></div></div></div></div>
      <!--loadable-components render area  -->
-    <script id="__LOADABLE_REQUIRED_CHUNKS__" type="application/json">[48,0,20]</script>
-<script async data-chunk="app" src="/assets/js/app.ceaffbcc.js"></script>
-<script async data-chunk="LayoutWrapper" src="/assets/js/vendors~LayoutWrapper.ceaffbcc.js"></script>
-<script async data-chunk="LayoutWrapper" src="/assets/js/LayoutWrapper.ceaffbcc.js"></script>
-<script async data-chunk="knowledge/hw/emergency-response.md" src="/assets/js/knowledge/hw/emergency-response.md.ceaffbcc.js"></script>
+    <script id="__LOADABLE_REQUIRED_CHUNKS__" type="application/json">[50,0,22]</script>
+<script async data-chunk="app" src="/assets/js/app.5d90b578.js"></script>
+<script async data-chunk="LayoutWrapper" src="/assets/js/vendors~LayoutWrapper.5d90b578.js"></script>
+<script async data-chunk="LayoutWrapper" src="/assets/js/LayoutWrapper.5d90b578.js"></script>
+<script async data-chunk="knowledge/hw/emergency-response.md" src="/assets/js/knowledge/hw/emergency-response.md.5d90b578.js"></script>
   </body>
 </html>
