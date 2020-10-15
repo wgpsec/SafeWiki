@@ -24,260 +24,276 @@ self.__precacheManifest = [
     "revision": "b36f7a7f3f1b465223fe1593369f300a"
   },
   {
-    "url": "assets/css/4.styles.71b56916.css",
+    "url": "assets/css/4.styles.dc92b959.css",
     "revision": "5792a02549211697611eab7871fd9a00"
   },
   {
-    "url": "assets/css/48.styles.b03ba32f.css",
+    "url": "assets/css/52.styles.58da8858.css",
     "revision": "5cc8455522db7d3e59c3fea7dbaff53f"
   },
   {
-    "url": "assets/css/50.styles.d07e0355.css",
+    "url": "assets/css/54.styles.69fa1a0f.css",
     "revision": "97d5a643374119c3536f8878e7811d23"
   },
   {
-    "url": "assets/css/51.styles.d31c189d.css",
+    "url": "assets/css/55.styles.f15da474.css",
     "revision": "68b329da9893e34099c7d8ad5cb9c940"
   },
   {
-    "url": "assets/css/7.styles.9862b313.css",
+    "url": "assets/css/7.styles.8dd48d5e.css",
     "revision": "5792a02549211697611eab7871fd9a00"
   },
   {
-    "url": "assets/css/styles.571e414a.css",
+    "url": "assets/css/styles.f55e3dd4.css",
     "revision": "9dd9925c1363ab8564ed93979c850990"
   },
   {
-    "url": "assets/js/51.da3d2ecc.js",
-    "revision": "deb5ccb5f77adb17e083add0c32e1450"
+    "url": "assets/js/55.aa1a827a.js",
+    "revision": "fb7858efe1466b8cfaee78add24358a7"
   },
   {
-    "url": "assets/js/app.da3d2ecc.js",
-    "revision": "e126ab399b70ec20ac20384615d087b8"
+    "url": "assets/js/app.aa1a827a.js",
+    "revision": "6f4e62f6738f70e81c8e5eae9efb70b0"
   },
   {
-    "url": "assets/js/en-US/guide/how-to-contribute.md.da3d2ecc.js",
+    "url": "assets/js/en-US/guide/how-to-contribute.md.aa1a827a.js",
     "revision": "66c14ae12644faa6974e1f385c9d8a01"
   },
   {
-    "url": "assets/js/en-US/guide/README.md.da3d2ecc.js",
-    "revision": "eea2ab2f211ba14f2137c97da86e82e3"
+    "url": "assets/js/en-US/guide/README.md.aa1a827a.js",
+    "revision": "985b52cc4d8981bc04bb3a1d37690dc6"
   },
   {
-    "url": "assets/js/en-US/README.md.da3d2ecc.js",
+    "url": "assets/js/en-US/README.md.aa1a827a.js",
     "revision": "c6b2a5f2e6abe621e71684fcf00c38c8"
   },
   {
-    "url": "assets/js/en-US/update-log.md.da3d2ecc.js",
+    "url": "assets/js/en-US/update-log.md.aa1a827a.js",
     "revision": "b4016310be1d18d8cf5de79a781b7166"
   },
   {
-    "url": "assets/js/guide/how-to-contribute.md.da3d2ecc.js",
-    "revision": "053bbbfba5edaf75a25766c1a444cd09"
+    "url": "assets/js/guide/how-to-contribute.md.aa1a827a.js",
+    "revision": "a3fbf28bb830ff4785094303d3c4cf2c"
   },
   {
-    "url": "assets/js/guide/README.md.da3d2ecc.js",
-    "revision": "bc1743fa4258a7bc5f76a532850649b4"
+    "url": "assets/js/guide/README.md.aa1a827a.js",
+    "revision": "7d254ed808f585999c604cb36687b5ea"
   },
   {
-    "url": "assets/js/knowledge/code-audit/php-code-audit.md.da3d2ecc.js",
+    "url": "assets/js/knowledge/code-audit/php-code-audit.md.aa1a827a.js",
     "revision": "62a36d78728f7c16b5049cc8fe44ade5"
   },
   {
-    "url": "assets/js/knowledge/code-audit/README.md.da3d2ecc.js",
+    "url": "assets/js/knowledge/code-audit/README.md.aa1a827a.js",
     "revision": "b038dabb8f246bc756301d51c4f8ae71"
   },
   {
-    "url": "assets/js/knowledge/ctf/README.md.da3d2ecc.js",
+    "url": "assets/js/knowledge/ctf/deserialize-byte-escape.md.aa1a827a.js",
+    "revision": "d58550d4f69bb4c650a37b6bbe3004b8"
+  },
+  {
+    "url": "assets/js/knowledge/ctf/js-prototype-chain-pollution.md.aa1a827a.js",
+    "revision": "cb08df70f3e52b04d96b741df556aba1"
+  },
+  {
+    "url": "assets/js/knowledge/ctf/README.md.aa1a827a.js",
     "revision": "c8108af72e3a1fdb957363f040cc9728"
   },
   {
-    "url": "assets/js/knowledge/ctf/RSA.md.da3d2ecc.js",
+    "url": "assets/js/knowledge/ctf/RSA.md.aa1a827a.js",
     "revision": "b717a2aee71929c7d5a5b1f2de651763"
   },
   {
-    "url": "assets/js/knowledge/ctf/Volatility.md.da3d2ecc.js",
+    "url": "assets/js/knowledge/ctf/ssrf-gopher.md.aa1a827a.js",
+    "revision": "8c496dfd4f52e7bd55924ef2c6105eac"
+  },
+  {
+    "url": "assets/js/knowledge/ctf/Volatility.md.aa1a827a.js",
     "revision": "a3c64a88362bd50d4202fbf730d93c15"
   },
   {
-    "url": "assets/js/knowledge/hw/back-counter.md.da3d2ecc.js",
-    "revision": "7b2333d0426aad06d129c2a01a532f97"
+    "url": "assets/js/knowledge/ctf/xxe-bypass-payload.md.aa1a827a.js",
+    "revision": "a15a9a463a231b3bf3b287c56ecd42ef"
   },
   {
-    "url": "assets/js/knowledge/hw/boundary-info.md.da3d2ecc.js",
-    "revision": "6495ae363f57109e582c93921769d10a"
+    "url": "assets/js/knowledge/hw/back-counter.md.aa1a827a.js",
+    "revision": "43aa75d41c966b2bc83fd9136cf68df0"
   },
   {
-    "url": "assets/js/knowledge/hw/cc.md.da3d2ecc.js",
-    "revision": "2f6af2ff12ee99981f7f08346e5d6627"
+    "url": "assets/js/knowledge/hw/boundary-info.md.aa1a827a.js",
+    "revision": "f1c8292483c6c5515517b94d7a885246"
   },
   {
-    "url": "assets/js/knowledge/hw/checklist.md.da3d2ecc.js",
-    "revision": "6b3cdf3a6dd08890ddfea860e7c3275e"
+    "url": "assets/js/knowledge/hw/cc.md.aa1a827a.js",
+    "revision": "cc5307a4c72a9bde91b9ca76f53bb3c7"
   },
   {
-    "url": "assets/js/knowledge/hw/defense-assets.md.da3d2ecc.js",
-    "revision": "c450fef1b3451e87870f4f249d880d25"
+    "url": "assets/js/knowledge/hw/checklist.md.aa1a827a.js",
+    "revision": "e731057fae75f82eb6a5696bb489f5c8"
   },
   {
-    "url": "assets/js/knowledge/hw/del-log.md.da3d2ecc.js",
-    "revision": "931b6d324dc1b466df2f4c91b1cad11d"
+    "url": "assets/js/knowledge/hw/defense-assets.md.aa1a827a.js",
+    "revision": "b661e8c83f2762cd5acefb0956043109"
   },
   {
-    "url": "assets/js/knowledge/hw/domain-pentest.md.da3d2ecc.js",
-    "revision": "93381c51787ba39d204cc8d8052fb6af"
+    "url": "assets/js/knowledge/hw/del-log.md.aa1a827a.js",
+    "revision": "f6ef227f58a85a19bad74d7da70a4f5b"
   },
   {
-    "url": "assets/js/knowledge/hw/emergency-response.md.da3d2ecc.js",
-    "revision": "44f24b3c57f0c51e6c2dd8b25608066e"
+    "url": "assets/js/knowledge/hw/domain-pentest.md.aa1a827a.js",
+    "revision": "e01b2e11b7567b62938a4ed44a3a002a"
   },
   {
-    "url": "assets/js/knowledge/hw/lan-info.md.da3d2ecc.js",
-    "revision": "6d8e1036b8868a1e3dc1e7cbbe3393b8"
+    "url": "assets/js/knowledge/hw/emergency-response.md.aa1a827a.js",
+    "revision": "b74e9f42e3b7ecf3b9cc3bc49a2dc5e6"
   },
   {
-    "url": "assets/js/knowledge/hw/linux-baselinesec.md.da3d2ecc.js",
-    "revision": "8cfb9777e4e5e53d494990ad5a6452ce"
+    "url": "assets/js/knowledge/hw/lan-info.md.aa1a827a.js",
+    "revision": "8fd676e6548f43a0b96f56d0e62559ae"
   },
   {
-    "url": "assets/js/knowledge/hw/monitor-read.md.da3d2ecc.js",
-    "revision": "a1fad7e11529e9ae223e62632b3a27d4"
+    "url": "assets/js/knowledge/hw/linux-baselinesec.md.aa1a827a.js",
+    "revision": "67cf87bcc29d17f698be94b981b551af"
   },
   {
-    "url": "assets/js/knowledge/hw/net-proxy.md.da3d2ecc.js",
-    "revision": "396e454d9148d2feb289678af0658f8f"
+    "url": "assets/js/knowledge/hw/monitor-read.md.aa1a827a.js",
+    "revision": "d94b2d4b3c470200e50e004b76f5c6cc"
   },
   {
-    "url": "assets/js/knowledge/hw/ntml-hash.md.da3d2ecc.js",
-    "revision": "5fd9a46a326018eeed4c9b48d2a13f23"
+    "url": "assets/js/knowledge/hw/net-proxy.md.aa1a827a.js",
+    "revision": "083a8c61eff8ae370d3913d41ce3c6b4"
   },
   {
-    "url": "assets/js/knowledge/hw/os-shell.md.da3d2ecc.js",
-    "revision": "87679446c89f35794538e342c409b920"
+    "url": "assets/js/knowledge/hw/ntml-hash.md.aa1a827a.js",
+    "revision": "2ed6bd6d1e93b72600c1f16306da6dd4"
   },
   {
-    "url": "assets/js/knowledge/hw/README.md.da3d2ecc.js",
-    "revision": "799dbcd99ec4fda1e5fd4267fc33d75c"
+    "url": "assets/js/knowledge/hw/os-shell.md.aa1a827a.js",
+    "revision": "e53bcbefc535c05822eedede570969ba"
   },
   {
-    "url": "assets/js/knowledge/hw/to-root.md.da3d2ecc.js",
-    "revision": "85f520bf8002cc56dee508ca4788e008"
+    "url": "assets/js/knowledge/hw/README.md.aa1a827a.js",
+    "revision": "ac6690d4b505e080d4ac12e8a58bc9c0"
   },
   {
-    "url": "assets/js/knowledge/hw/webshell.md.da3d2ecc.js",
-    "revision": "873e4cd327f2d3885b278f86ee570922"
+    "url": "assets/js/knowledge/hw/to-root.md.aa1a827a.js",
+    "revision": "52eb87d954c045dd42c91bc71284ff04"
   },
   {
-    "url": "assets/js/knowledge/hw/windows-baselinesec.md.da3d2ecc.js",
-    "revision": "ef8df8c07febde148f8c7fa6fa4460c6"
+    "url": "assets/js/knowledge/hw/webshell.md.aa1a827a.js",
+    "revision": "73c1ac9037d2cf72734979f2ec44a3fc"
   },
   {
-    "url": "assets/js/knowledge/web/code-injection.md.da3d2ecc.js",
-    "revision": "a116e68fed52d489c4f2c4a65e1d2aef"
+    "url": "assets/js/knowledge/hw/windows-baselinesec.md.aa1a827a.js",
+    "revision": "e74e7a8ed0b80f2a3baa5850aa25f3bf"
   },
   {
-    "url": "assets/js/knowledge/web/csrf-ssrf.md.da3d2ecc.js",
-    "revision": "6bf21e82ebee3821c44b12e6891262a3"
+    "url": "assets/js/knowledge/web/code-injection.md.aa1a827a.js",
+    "revision": "36b6ac8b863827aacaa4975797282573"
   },
   {
-    "url": "assets/js/knowledge/web/expression-language-injection.md.da3d2ecc.js",
-    "revision": "797f68cd3f3c746debabf8ef39225295"
+    "url": "assets/js/knowledge/web/csrf-ssrf.md.aa1a827a.js",
+    "revision": "7f7e5cc59c35a800fe1852cb4a869fd9"
   },
   {
-    "url": "assets/js/knowledge/web/file-download.md.da3d2ecc.js",
-    "revision": "25e4a845e89ad4c9b476290dfae2632a"
+    "url": "assets/js/knowledge/web/expression-language-injection.md.aa1a827a.js",
+    "revision": "586feb439c5bbc29cdb5cdabb14f0678"
   },
   {
-    "url": "assets/js/knowledge/web/file-includes.md.da3d2ecc.js",
-    "revision": "c3c18992244cab25fb8c76e6baa21fa6"
+    "url": "assets/js/knowledge/web/file-download.md.aa1a827a.js",
+    "revision": "af9742bd7594b3dd6bdc06747b731a28"
   },
   {
-    "url": "assets/js/knowledge/web/file-upload.md.da3d2ecc.js",
-    "revision": "f28df7b8463b80e7cb88ea58a5261ab3"
+    "url": "assets/js/knowledge/web/file-includes.md.aa1a827a.js",
+    "revision": "b1903e77eef99f4293e0ba2f3fd5b6cc"
   },
   {
-    "url": "assets/js/knowledge/web/jwt-cookie.md.da3d2ecc.js",
-    "revision": "a0c2826cc765b57338ecfa3c2ed73200"
+    "url": "assets/js/knowledge/web/file-upload.md.aa1a827a.js",
+    "revision": "c1a319fdc776b9f6a8001a25f4581414"
   },
   {
-    "url": "assets/js/knowledge/web/logical-vulns.md.da3d2ecc.js",
-    "revision": "ac6904aa2a14d0e56c593db8bad1f39b"
+    "url": "assets/js/knowledge/web/jwt-cookie.md.aa1a827a.js",
+    "revision": "2b031c8dab829e4a218fb0ff6b0a2f39"
   },
   {
-    "url": "assets/js/knowledge/web/phpsec.md.da3d2ecc.js",
-    "revision": "b810b176fa657bc29e7d59082d613e6a"
+    "url": "assets/js/knowledge/web/logical-vulns.md.aa1a827a.js",
+    "revision": "3f189eaa071828bde1f908c4b7548a46"
   },
   {
-    "url": "assets/js/knowledge/web/README.md.da3d2ecc.js",
-    "revision": "e9af434e3e31d590dfbadd58a9a7ddf1"
+    "url": "assets/js/knowledge/web/phpsec.md.aa1a827a.js",
+    "revision": "59c24121b7c561037bc5c878066a0ea6"
   },
   {
-    "url": "assets/js/knowledge/web/same-origin-policy.md.da3d2ecc.js",
-    "revision": "b6931b6225a3af5c38a46052409ade7c"
+    "url": "assets/js/knowledge/web/README.md.aa1a827a.js",
+    "revision": "290ef702689435bb095e339234e6b61a"
   },
   {
-    "url": "assets/js/knowledge/web/session-sec.md.da3d2ecc.js",
-    "revision": "0b295e7b1e219a0b72251f2544dc9f7e"
+    "url": "assets/js/knowledge/web/same-origin-policy.md.aa1a827a.js",
+    "revision": "b7d8d7a63a3545aeb43ee12e686aa393"
   },
   {
-    "url": "assets/js/knowledge/web/source-leaked.md.da3d2ecc.js",
-    "revision": "64df0a7fff6ac2dabe36adac6aefbe55"
+    "url": "assets/js/knowledge/web/session-sec.md.aa1a827a.js",
+    "revision": "498acf7e875fa6a2005c5515cd19acd3"
   },
   {
-    "url": "assets/js/knowledge/web/sql-injection.md.da3d2ecc.js",
-    "revision": "252e5809b8be2efc8fe811ccd85936d3"
+    "url": "assets/js/knowledge/web/source-leaked.md.aa1a827a.js",
+    "revision": "7d7be8c64d2763aebe04a691cd66a2a1"
   },
   {
-    "url": "assets/js/knowledge/web/xss.md.da3d2ecc.js",
-    "revision": "e81c9f8074df0b20668fb22fa187f0c1"
+    "url": "assets/js/knowledge/web/sql-injection.md.aa1a827a.js",
+    "revision": "98eb1197e3179a3eeda48f55dda83864"
   },
   {
-    "url": "assets/js/knowledge/web/xxe.md.da3d2ecc.js",
-    "revision": "cd2ef397812096fd5ecee07f93fd5cc2"
+    "url": "assets/js/knowledge/web/xss.md.aa1a827a.js",
+    "revision": "e6c2e85628bf4f89dc156e3b9a57fc05"
   },
   {
-    "url": "assets/js/LayoutWrapper.da3d2ecc.js",
-    "revision": "81a53a6480ab71c5a2892322d45bea2f"
+    "url": "assets/js/knowledge/web/xxe.md.aa1a827a.js",
+    "revision": "1b91a84d509a5f72f0caa0edf8adef9a"
   },
   {
-    "url": "assets/js/notFoundWrapper.da3d2ecc.js",
-    "revision": "c35fd6ad3b2eae885270a183cbd49e6d"
+    "url": "assets/js/LayoutWrapper.aa1a827a.js",
+    "revision": "de593698e053f36b83780d97aa269041"
   },
   {
-    "url": "assets/js/README.md.da3d2ecc.js",
+    "url": "assets/js/notFoundWrapper.aa1a827a.js",
+    "revision": "e042245217c6b438a26c955326b9f423"
+  },
+  {
+    "url": "assets/js/README.md.aa1a827a.js",
     "revision": "632218c327122581563993c0e57f60b0"
   },
   {
-    "url": "assets/js/update-log.md.da3d2ecc.js",
-    "revision": "476ea8c4c1bfcbb9d237bb09619116bf"
+    "url": "assets/js/update-log.md.aa1a827a.js",
+    "revision": "c199bac68a0dc2233c91275ca2a511ea"
   },
   {
-    "url": "assets/js/vendors~LayoutWrapper.da3d2ecc.js",
-    "revision": "8008b570285c797b95280e2d67298a57"
+    "url": "assets/js/vendors~LayoutWrapper.aa1a827a.js",
+    "revision": "48fc3f54d57aa3110a67d06fb4ba211a"
   },
   {
     "url": "en-US/guide/how-to-contribute.html.html",
-    "revision": "d2c015c77256b987c3f7642e5f5e72ad"
+    "revision": "d0ac7cd07233fa6d1849d951ae4d66be"
   },
   {
     "url": "en-US/guide/index.html",
-    "revision": "7fff71e06dfc19344427baaac6df93be"
+    "revision": "50c290a4663cd2e2701f4796204c1b01"
   },
   {
     "url": "en-US/index.html",
-    "revision": "5ceaeef65d73d745ea8bbb7873762088"
+    "revision": "d6aaccea89f37f3fdeb1104b6f1daee4"
   },
   {
     "url": "en-US/update-log.html.html",
-    "revision": "ee893ce37ff0ca6a76b681d9e9fd8a82"
+    "revision": "e934c6a000e972bc15130aa52d0ea60d"
   },
   {
     "url": "guide/how-to-contribute.html.html",
-    "revision": "d01c94a387202dbb6598d061dab91ca6"
+    "revision": "02df2432a0a7e0ac6c03113590055601"
   },
   {
     "url": "guide/index.html",
-    "revision": "16d43658e9b7185cf3ec8d7084b05624"
+    "revision": "929feb039159df83ecc378bf403e48d2"
   },
   {
     "url": "images/1560316346448.png",
@@ -492,168 +508,228 @@ self.__precacheManifest = [
     "revision": "44b0a568b79342f3749920d9a1e919ac"
   },
   {
+    "url": "images/js-prototype-chain-pollution/2.png",
+    "revision": "0436eb51b39523116507a1a3834900d3"
+  },
+  {
+    "url": "images/js-prototype-chain-pollution/3.png",
+    "revision": "12db984d79fb6f1997a47db95da17209"
+  },
+  {
+    "url": "images/js-prototype-chain-pollution/4.png",
+    "revision": "497b68a2ea40b9b67618c63eaa406d01"
+  },
+  {
+    "url": "images/js-prototype-chain-pollution/5.png",
+    "revision": "f232256204d035936ababb1f6fa3d6a3"
+  },
+  {
+    "url": "images/js-prototype-chain-pollution/6.png",
+    "revision": "93ae2e3267259193a00870c94c50cb0f"
+  },
+  {
+    "url": "images/js-prototype-chain-pollution/7.png",
+    "revision": "46a7212571020bbe01a8f6a001d63fc6"
+  },
+  {
+    "url": "images/js-prototype-chain-pollution/8.png",
+    "revision": "def1f43b528f90a2e7f7e23eae03ca2e"
+  },
+  {
+    "url": "images/js-prototype-chain-pollution/title.png",
+    "revision": "0067b4735e585a420084892d72e0caff"
+  },
+  {
+    "url": "images/ssrf-gopher/1.png",
+    "revision": "edb621d79061eea97a0267dc89c736ec"
+  },
+  {
+    "url": "images/ssrf-gopher/2.png",
+    "revision": "b618a17ac867315e880229f163f5e629"
+  },
+  {
+    "url": "images/ssrf-gopher/3.png",
+    "revision": "acebed2cf7518beff684c7b86fd63e0d"
+  },
+  {
     "url": "images/wsecxx.png",
     "revision": "e3f3976a331a5aa806a46c9ad5604235"
   },
   {
     "url": "index.html",
-    "revision": "9ae629a460708888eed5d5ed2152db02"
+    "revision": "9146709073440a4d00ed3979230a48fd"
   },
   {
     "url": "knowledge/code-audit/index.html",
-    "revision": "183b51a0b1d069d0494b3d14013772f7"
+    "revision": "223b3c545ec18f2943eebbef1e509d10"
   },
   {
     "url": "knowledge/code-audit/php-code-audit.html.html",
-    "revision": "0da9cdbc09bc79fa38767b9ef2601c9d"
+    "revision": "6ccaa14626174fbeea602ff7f594fb17"
+  },
+  {
+    "url": "knowledge/ctf/deserialize-byte-escape.html.html",
+    "revision": "f187048c33ee70dcfe3a5c5ca6908a23"
   },
   {
     "url": "knowledge/ctf/index.html",
-    "revision": "fa7a5405a8dfd16db31a3c3b9277d1a7"
+    "revision": "8f91d8046d540aba0474dce63b2bfc87"
+  },
+  {
+    "url": "knowledge/ctf/js-prototype-chain-pollution.html.html",
+    "revision": "2c80b83e629640151d5130cb02229d03"
   },
   {
     "url": "knowledge/ctf/RSA.html.html",
-    "revision": "d192791672a332d738db2700f7906866"
+    "revision": "bf9df7c733475b59e1be901bc868758b"
+  },
+  {
+    "url": "knowledge/ctf/ssrf-gopher.html.html",
+    "revision": "01b6f964568283f886133442dab63c6c"
   },
   {
     "url": "knowledge/ctf/Volatility.html.html",
-    "revision": "bb755abb6a3aea7e49f9059e4a08066f"
+    "revision": "66b8aa0b9b9bad7f55b80e133c75f282"
+  },
+  {
+    "url": "knowledge/ctf/xxe-bypass-payload.html.html",
+    "revision": "c44b352a9f1cd8c7e866ac99206c5916"
   },
   {
     "url": "knowledge/hw/back-counter.html.html",
-    "revision": "54186a5f365fc05a9cc5f2c315b36d42"
+    "revision": "e6428ce75b185e003656de3c2a914896"
   },
   {
     "url": "knowledge/hw/boundary-info.html.html",
-    "revision": "399b4d58d19f2e2eb188e29a2836df68"
+    "revision": "a9d5c292cbed1f0bb5d274bca8b5b6dd"
   },
   {
     "url": "knowledge/hw/cc.html.html",
-    "revision": "03d265793cc9abaab50edc7bd7379886"
+    "revision": "6a98144afe0294c820b415f7b402c882"
   },
   {
     "url": "knowledge/hw/checklist.html.html",
-    "revision": "904169d0f3e53e47c3610aa9b1543ae8"
+    "revision": "04e7e1f4b33599ee90681ac36b6b4c73"
   },
   {
     "url": "knowledge/hw/defense-assets.html.html",
-    "revision": "5126443fac61540df56f6b8d953c33ac"
+    "revision": "53e4b857d9b23039efc9edf520c31c22"
   },
   {
     "url": "knowledge/hw/del-log.html.html",
-    "revision": "7a9c4dea4ce2e42fc45d0582e0199490"
+    "revision": "bbc997d51ed6e0e1d42d22aa35134a95"
   },
   {
     "url": "knowledge/hw/domain-pentest.html.html",
-    "revision": "724d1065ce62bdca6fca426e7a2fbe4e"
+    "revision": "04d883bc669940f77f98224f80c4f23f"
   },
   {
     "url": "knowledge/hw/emergency-response.html.html",
-    "revision": "61f6d9560f65dffc0ae83396e446918d"
+    "revision": "2d37aed7c1d8dffa4ddc99de884424d7"
   },
   {
     "url": "knowledge/hw/index.html",
-    "revision": "1c016bf7dea6558ea4fa10bba5130dea"
+    "revision": "968289173b172e8a695404baa75b5948"
   },
   {
     "url": "knowledge/hw/lan-info.html.html",
-    "revision": "af315e3a9b30657de87d2cdf584576d9"
+    "revision": "a1507c698d4476f9d1a9cddcf82db94a"
   },
   {
     "url": "knowledge/hw/linux-baselinesec.html.html",
-    "revision": "cd4625fbf5070cfb7773dacba4dfeb25"
+    "revision": "7ab562786dadbe12474426ced8a6b016"
   },
   {
     "url": "knowledge/hw/monitor-read.html.html",
-    "revision": "16584af7473f19e6b52a90dec631e54c"
+    "revision": "44732d3cad531b3f715cd93c2100a26e"
   },
   {
     "url": "knowledge/hw/net-proxy.html.html",
-    "revision": "4f0af4a530624a28cbbdfbfc9030c13f"
+    "revision": "adf40906048eb2cc1c728e12bf0320b2"
   },
   {
     "url": "knowledge/hw/ntml-hash.html.html",
-    "revision": "d12a962b3ba97925c37dd31c4e7dd572"
+    "revision": "4e266df8c46c86113fb4c7fc059be886"
   },
   {
     "url": "knowledge/hw/os-shell.html.html",
-    "revision": "be9fc334b8335d7c4e77ba8198c07064"
+    "revision": "20e0b1047aba3a92c4d3d7bb8c58d3e9"
   },
   {
     "url": "knowledge/hw/to-root.html.html",
-    "revision": "5c0ec374619502b4a8548955c916a75d"
+    "revision": "d98683778fca2e78caadb4c01bc247b3"
   },
   {
     "url": "knowledge/hw/webshell.html.html",
-    "revision": "2eaca9c85e9e894c60fe892752d1e47e"
+    "revision": "014b44ef0a7c254451cf9c2aa539d63c"
   },
   {
     "url": "knowledge/hw/windows-baselinesec.html.html",
-    "revision": "5bdc075cb20e7b08f3dc8fdf17e59315"
+    "revision": "cbf97d8ca847daeb6fec4e11d8826e6a"
   },
   {
     "url": "knowledge/web/code-injection.html.html",
-    "revision": "7aefa36d5f046ad47bd1ae3ac348982e"
+    "revision": "2d92ebf4c885636f623cb2b278fb87e3"
   },
   {
     "url": "knowledge/web/csrf-ssrf.html.html",
-    "revision": "94b1818cc392f9c4da522a4bdbbc229b"
+    "revision": "f9225f3719121b00bade6cc959b61114"
   },
   {
     "url": "knowledge/web/expression-language-injection.html.html",
-    "revision": "87649162a105ea09eb4719619712f953"
+    "revision": "af844a03e74d26ad92a6a6fe380273e9"
   },
   {
     "url": "knowledge/web/file-download.html.html",
-    "revision": "d7993e98d7fe42515bb30dea740d3e92"
+    "revision": "77dad230d05375b6a9c60a8b43272649"
   },
   {
     "url": "knowledge/web/file-includes.html.html",
-    "revision": "561c9b560724ca6ba84c06379d4fc7d0"
+    "revision": "2d92b7c74d9d93eb2597b2717d53f18d"
   },
   {
     "url": "knowledge/web/file-upload.html.html",
-    "revision": "7ceef83303351de1cc79cbbca6e6ec21"
+    "revision": "614513b590c8f2aba47d73a8063c9dcc"
   },
   {
     "url": "knowledge/web/index.html",
-    "revision": "0be98addfbd5bee9cea0f38a0122ea94"
+    "revision": "2bcf807233e8552eafdc1b8f68f1f89f"
   },
   {
     "url": "knowledge/web/jwt-cookie.html.html",
-    "revision": "d622e689e2135a75b5ff40700fc1ac69"
+    "revision": "894e1e4224a21e5b3606151187e2936c"
   },
   {
     "url": "knowledge/web/logical-vulns.html.html",
-    "revision": "dcfdeb3c1c07a8fdd159a84b6e695994"
+    "revision": "a44b579108462116dd27d153663e2f22"
   },
   {
     "url": "knowledge/web/phpsec.html.html",
-    "revision": "ae201b9b1292fbcb6227f66d275ee46e"
+    "revision": "5301771ad151811f41538e9c499f813a"
   },
   {
     "url": "knowledge/web/same-origin-policy.html.html",
-    "revision": "b50be0c936dd3c4e7b130b2ae078a802"
+    "revision": "48f569bf1b43dffe8b2960a6d5391d49"
   },
   {
     "url": "knowledge/web/session-sec.html.html",
-    "revision": "f3945500c2b83a2ec02078d4bbe036f2"
+    "revision": "4c70715b643e47c4ac95c8f2bbbf20e7"
   },
   {
     "url": "knowledge/web/source-leaked.html.html",
-    "revision": "f2937b76bb6c1104e11d77da5b7ae7a2"
+    "revision": "46c8618c48d80a54876dd46596abe326"
   },
   {
     "url": "knowledge/web/sql-injection.html.html",
-    "revision": "758b70e94eb562955d4c135fdb7ee55f"
+    "revision": "f16dec2869c770ec6535559461388b18"
   },
   {
     "url": "knowledge/web/xss.html.html",
-    "revision": "7606a85a4b1aa7b1446f0dbbe6daa3bd"
+    "revision": "105facfeccf2172a932ce968980fe701"
   },
   {
     "url": "knowledge/web/xxe.html.html",
-    "revision": "2e35be3302e7187d97f3baa1df935a98"
+    "revision": "ac9f369313d5b07d897b426d2ce9b953"
   },
   {
     "url": "logo-192x192.png",
@@ -693,7 +769,7 @@ self.__precacheManifest = [
   },
   {
     "url": "update-log.html.html",
-    "revision": "36c0833c1c0543f00e92753fa40a2a3b"
+    "revision": "8601c53fc53fd0d32d61f5cee71267ae"
   },
   {
     "url": "wechat.png",
