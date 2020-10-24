@@ -14,10 +14,10 @@
     </script>
     
     <!--loadable-components prefetch  -->
-    <link data-chunk="app" rel="preload" as="script" href="/assets/js/app.e0fbc71b.js">
-<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/vendors~LayoutWrapper.e0fbc71b.js">
-<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/LayoutWrapper.e0fbc71b.js">
-<link data-chunk="knowledge/web/file-upload.md" rel="preload" as="script" href="/assets/js/knowledge/web/file-upload.md.e0fbc71b.js"> 
+    <link data-chunk="app" rel="preload" as="script" href="/assets/js/app.59105602.js">
+<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/vendors~LayoutWrapper.59105602.js">
+<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/LayoutWrapper.59105602.js">
+<link data-chunk="knowledge/web/file-upload.md" rel="preload" as="script" href="/assets/js/knowledge/web/file-upload.md.59105602.js"> 
     <style>pre[class*="language-"].line-numbers {
 	position: relative;
 	padding-left: 3.8em;
@@ -26554,9 +26554,9 @@ test.php::$DATA
 <span class="token delimiter important">?&gt;</span></span></code></pre></div><p><strong>防御方案：</strong></p><p>对于文件上传，在将文件保存在本地前就进行相应的安全检查</p><h2 class="__internal" id="针对各种-cms-和-编辑器">针对各种 CMS 和 编辑器<a href="#%E9%92%88%E5%AF%B9%E5%90%84%E7%A7%8D-cms-%E5%92%8C-%E7%BC%96%E8%BE%91%E5%99%A8" aria-hidden="true" class="anchor">#</a></h2><p>可以针对不同CMS存在的上传漏洞进行绕过。</p><p><a href="https://article.itxueyuan.com/kyWmXr" target="_blank">PHPCMSv9.6.0 任意文件上传</a>( CVE-2018-14399 )</p><p>FCKeditor，ewebeditor 等，可以针对编辑器的漏洞进行绕过。</p><h1 class="__internal" id="修复建议">修复建议<a href="#%E4%BF%AE%E5%A4%8D%E5%BB%BA%E8%AE%AE" aria-hidden="true" class="anchor">#</a></h1><blockquote><p>1、使用白名单限制可以上传的文件扩展名</p><p>2、注意0x00截断攻击（PHP更新到最新版本）</p><p>3、对上传后的文件统一随机命名，不允许用户控制扩展名</p><p>4、上传文件的存储目录禁用执行权限</p></blockquote><h2 class="__internal" id="代码审计方法">代码审计方法<a href="#%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1%E6%96%B9%E6%B3%95" aria-hidden="true" class="anchor">#</a></h2><p>代码审计中关注以下函数</p><div class="rcpress-highlight" data-language="php"><pre class="language-php"><code class="language-php"><span class="token function">move_uploaded_file</span><span class="token punctuation">(</span><span class="token punctuation">)</span>	<span class="token comment">//将上传的文件移动到新位置</span></code></pre></div><p>全局搜索<code>$_FILES</code>变量，定位到相关的上传过程查看过滤是否严格。</p></section><section class="prev-next-nav"></section></article></div></div></div></div></div></div></div>
      <!--loadable-components render area  -->
     <script id="__LOADABLE_REQUIRED_CHUNKS__" type="application/json">[56,0,44]</script>
-<script async data-chunk="app" src="/assets/js/app.e0fbc71b.js"></script>
-<script async data-chunk="LayoutWrapper" src="/assets/js/vendors~LayoutWrapper.e0fbc71b.js"></script>
-<script async data-chunk="LayoutWrapper" src="/assets/js/LayoutWrapper.e0fbc71b.js"></script>
-<script async data-chunk="knowledge/web/file-upload.md" src="/assets/js/knowledge/web/file-upload.md.e0fbc71b.js"></script>
+<script async data-chunk="app" src="/assets/js/app.59105602.js"></script>
+<script async data-chunk="LayoutWrapper" src="/assets/js/vendors~LayoutWrapper.59105602.js"></script>
+<script async data-chunk="LayoutWrapper" src="/assets/js/LayoutWrapper.59105602.js"></script>
+<script async data-chunk="knowledge/web/file-upload.md" src="/assets/js/knowledge/web/file-upload.md.59105602.js"></script>
   </body>
 </html>

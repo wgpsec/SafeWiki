@@ -44,264 +44,264 @@ self.__precacheManifest = [
     "revision": "5792a02549211697611eab7871fd9a00"
   },
   {
-    "url": "assets/css/styles.d91ef817.css",
+    "url": "assets/css/styles.10e73a92.css",
     "revision": "9dd9925c1363ab8564ed93979c850990"
   },
   {
-    "url": "assets/js/57.e0fbc71b.js",
+    "url": "assets/js/57.59105602.js",
     "revision": "5a1b53315b6cad8f202dd74c0dbf2e01"
   },
   {
-    "url": "assets/js/app.e0fbc71b.js",
-    "revision": "343efdf44d09fe62f8ff2e02068f804e"
+    "url": "assets/js/app.59105602.js",
+    "revision": "3a283f9cf1d184f9e39c6a0515852378"
   },
   {
-    "url": "assets/js/en-US/guide/how-to-contribute.md.e0fbc71b.js",
+    "url": "assets/js/en-US/guide/how-to-contribute.md.59105602.js",
     "revision": "66c14ae12644faa6974e1f385c9d8a01"
   },
   {
-    "url": "assets/js/en-US/guide/README.md.e0fbc71b.js",
+    "url": "assets/js/en-US/guide/README.md.59105602.js",
     "revision": "20016fe8dd4ba9be2a796eeffe059ed8"
   },
   {
-    "url": "assets/js/en-US/README.md.e0fbc71b.js",
+    "url": "assets/js/en-US/README.md.59105602.js",
     "revision": "c6b2a5f2e6abe621e71684fcf00c38c8"
   },
   {
-    "url": "assets/js/en-US/update-log.md.e0fbc71b.js",
+    "url": "assets/js/en-US/update-log.md.59105602.js",
     "revision": "b4016310be1d18d8cf5de79a781b7166"
   },
   {
-    "url": "assets/js/guide/how-to-contribute.md.e0fbc71b.js",
+    "url": "assets/js/guide/how-to-contribute.md.59105602.js",
     "revision": "a3fbf28bb830ff4785094303d3c4cf2c"
   },
   {
-    "url": "assets/js/guide/README.md.e0fbc71b.js",
+    "url": "assets/js/guide/README.md.59105602.js",
     "revision": "2d08ae45556b6c367490d9d69b74576b"
   },
   {
-    "url": "assets/js/knowledge/code-audit/php-code-audit.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/code-audit/php-code-audit.md.59105602.js",
     "revision": "62a36d78728f7c16b5049cc8fe44ade5"
   },
   {
-    "url": "assets/js/knowledge/code-audit/README.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/code-audit/README.md.59105602.js",
     "revision": "b038dabb8f246bc756301d51c4f8ae71"
   },
   {
-    "url": "assets/js/knowledge/ctf/deserialize-byte-escape.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/ctf/deserialize-byte-escape.md.59105602.js",
     "revision": "d58550d4f69bb4c650a37b6bbe3004b8"
   },
   {
-    "url": "assets/js/knowledge/ctf/js-prototype-chain-pollution.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/ctf/js-prototype-chain-pollution.md.59105602.js",
     "revision": "cb08df70f3e52b04d96b741df556aba1"
   },
   {
-    "url": "assets/js/knowledge/ctf/README.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/ctf/README.md.59105602.js",
     "revision": "c8108af72e3a1fdb957363f040cc9728"
   },
   {
-    "url": "assets/js/knowledge/ctf/RSA.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/ctf/RSA.md.59105602.js",
     "revision": "b717a2aee71929c7d5a5b1f2de651763"
   },
   {
-    "url": "assets/js/knowledge/ctf/ssrf-gopher.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/ctf/ssrf-gopher.md.59105602.js",
     "revision": "8c496dfd4f52e7bd55924ef2c6105eac"
   },
   {
-    "url": "assets/js/knowledge/ctf/Volatility.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/ctf/Volatility.md.59105602.js",
     "revision": "a3c64a88362bd50d4202fbf730d93c15"
   },
   {
-    "url": "assets/js/knowledge/ctf/xxe-bypass-payload.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/ctf/xxe-bypass-payload.md.59105602.js",
     "revision": "a15a9a463a231b3bf3b287c56ecd42ef"
   },
   {
-    "url": "assets/js/knowledge/hw/back-counter.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/hw/back-counter.md.59105602.js",
     "revision": "43aa75d41c966b2bc83fd9136cf68df0"
   },
   {
-    "url": "assets/js/knowledge/hw/boundary-info.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/hw/boundary-info.md.59105602.js",
     "revision": "981c545fb4cdff1b0a7064defe933b59"
   },
   {
-    "url": "assets/js/knowledge/hw/cc.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/hw/cc.md.59105602.js",
     "revision": "cc5307a4c72a9bde91b9ca76f53bb3c7"
   },
   {
-    "url": "assets/js/knowledge/hw/checklist.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/hw/checklist.md.59105602.js",
     "revision": "e731057fae75f82eb6a5696bb489f5c8"
   },
   {
-    "url": "assets/js/knowledge/hw/defense-assets.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/hw/defense-assets.md.59105602.js",
     "revision": "b661e8c83f2762cd5acefb0956043109"
   },
   {
-    "url": "assets/js/knowledge/hw/del-log.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/hw/del-log.md.59105602.js",
     "revision": "f6ef227f58a85a19bad74d7da70a4f5b"
   },
   {
-    "url": "assets/js/knowledge/hw/domain-pentest.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/hw/domain-pentest.md.59105602.js",
     "revision": "e01b2e11b7567b62938a4ed44a3a002a"
   },
   {
-    "url": "assets/js/knowledge/hw/emergency-response.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/hw/emergency-response.md.59105602.js",
     "revision": "b74e9f42e3b7ecf3b9cc3bc49a2dc5e6"
   },
   {
-    "url": "assets/js/knowledge/hw/lan-info.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/hw/lan-info.md.59105602.js",
     "revision": "8fd676e6548f43a0b96f56d0e62559ae"
   },
   {
-    "url": "assets/js/knowledge/hw/linux-baselinesec.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/hw/linux-baselinesec.md.59105602.js",
     "revision": "67cf87bcc29d17f698be94b981b551af"
   },
   {
-    "url": "assets/js/knowledge/hw/monitor-read.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/hw/monitor-read.md.59105602.js",
     "revision": "d94b2d4b3c470200e50e004b76f5c6cc"
   },
   {
-    "url": "assets/js/knowledge/hw/net-proxy.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/hw/net-proxy.md.59105602.js",
     "revision": "083a8c61eff8ae370d3913d41ce3c6b4"
   },
   {
-    "url": "assets/js/knowledge/hw/ntml-hash.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/hw/ntml-hash.md.59105602.js",
     "revision": "2ed6bd6d1e93b72600c1f16306da6dd4"
   },
   {
-    "url": "assets/js/knowledge/hw/os-shell.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/hw/os-shell.md.59105602.js",
     "revision": "e53bcbefc535c05822eedede570969ba"
   },
   {
-    "url": "assets/js/knowledge/hw/README.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/hw/README.md.59105602.js",
     "revision": "ac6690d4b505e080d4ac12e8a58bc9c0"
   },
   {
-    "url": "assets/js/knowledge/hw/to-root.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/hw/to-root.md.59105602.js",
     "revision": "e617ab2d0914371eaf44a1066bf23bf5"
   },
   {
-    "url": "assets/js/knowledge/hw/webshell.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/hw/webshell.md.59105602.js",
     "revision": "73c1ac9037d2cf72734979f2ec44a3fc"
   },
   {
-    "url": "assets/js/knowledge/hw/windows-baselinesec.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/hw/windows-baselinesec.md.59105602.js",
     "revision": "e74e7a8ed0b80f2a3baa5850aa25f3bf"
   },
   {
-    "url": "assets/js/knowledge/intranet/Cobalt-Strike.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/intranet/Cobalt-Strike.md.59105602.js",
     "revision": "70f2a8391f75589ad06af4aed5463b4d"
   },
   {
-    "url": "assets/js/knowledge/intranet/README.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/intranet/README.md.59105602.js",
     "revision": "38fb9b25dca4bade5d1ad3a315aa9841"
   },
   {
-    "url": "assets/js/knowledge/web/code-injection.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/web/code-injection.md.59105602.js",
     "revision": "3ef6f1880abcc4bb5f6738073f7c818b"
   },
   {
-    "url": "assets/js/knowledge/web/csrf-ssrf.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/web/csrf-ssrf.md.59105602.js",
     "revision": "59996ea4bd43c2d933cd016cc8b52c41"
   },
   {
-    "url": "assets/js/knowledge/web/expression-language-injection.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/web/expression-language-injection.md.59105602.js",
     "revision": "be3ae5d3d34dbce956cadc106081f6fc"
   },
   {
-    "url": "assets/js/knowledge/web/file-download.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/web/file-download.md.59105602.js",
     "revision": "41291f62ce57774ab5be3cb822939b2a"
   },
   {
-    "url": "assets/js/knowledge/web/file-includes.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/web/file-includes.md.59105602.js",
     "revision": "1b53bb62d0846126051062703334d316"
   },
   {
-    "url": "assets/js/knowledge/web/file-upload.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/web/file-upload.md.59105602.js",
     "revision": "9eb27a0dc855b877293b6d42419cab9c"
   },
   {
-    "url": "assets/js/knowledge/web/jwt-cookie.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/web/jwt-cookie.md.59105602.js",
     "revision": "5e38d2be9433ef95d00e4ee5e976c9ad"
   },
   {
-    "url": "assets/js/knowledge/web/logical-vulns.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/web/logical-vulns.md.59105602.js",
     "revision": "d70596acf7bb31fc0e0cebf4abdc8ae7"
   },
   {
-    "url": "assets/js/knowledge/web/phpsec.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/web/phpsec.md.59105602.js",
     "revision": "031d8984adf98edbc7e6faa477bd2093"
   },
   {
-    "url": "assets/js/knowledge/web/README.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/web/README.md.59105602.js",
     "revision": "ea6f420238da7ae607b3b1ea7f6cdbb6"
   },
   {
-    "url": "assets/js/knowledge/web/same-origin-policy.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/web/same-origin-policy.md.59105602.js",
     "revision": "a5a10b986b59362c82822e0a01f77578"
   },
   {
-    "url": "assets/js/knowledge/web/session-sec.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/web/session-sec.md.59105602.js",
     "revision": "67bd5155d9158cbf6bb6156617cfc8ca"
   },
   {
-    "url": "assets/js/knowledge/web/source-leaked.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/web/source-leaked.md.59105602.js",
     "revision": "e0ba4081b8ab5370bdbe6e07103731a3"
   },
   {
-    "url": "assets/js/knowledge/web/sql-injection.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/web/sql-injection.md.59105602.js",
     "revision": "5b8e6c405aaeb815ede98857cc874a7b"
   },
   {
-    "url": "assets/js/knowledge/web/xss.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/web/xss.md.59105602.js",
     "revision": "91648aa53d0462c42b3e94469776a188"
   },
   {
-    "url": "assets/js/knowledge/web/xxe.md.e0fbc71b.js",
+    "url": "assets/js/knowledge/web/xxe.md.59105602.js",
     "revision": "0be53b216ff708d4831c303a5529fb3b"
   },
   {
-    "url": "assets/js/LayoutWrapper.e0fbc71b.js",
+    "url": "assets/js/LayoutWrapper.59105602.js",
     "revision": "afa940d9f5b8553b0f9f4acd9e3e3d1f"
   },
   {
-    "url": "assets/js/notFoundWrapper.e0fbc71b.js",
+    "url": "assets/js/notFoundWrapper.59105602.js",
     "revision": "012d7097d81e13dcb17bfa16f38128f8"
   },
   {
-    "url": "assets/js/README.md.e0fbc71b.js",
+    "url": "assets/js/README.md.59105602.js",
     "revision": "632218c327122581563993c0e57f60b0"
   },
   {
-    "url": "assets/js/update-log.md.e0fbc71b.js",
+    "url": "assets/js/update-log.md.59105602.js",
     "revision": "f473c7be035e2d9d2d0185754dd766b8"
   },
   {
-    "url": "assets/js/vendors~LayoutWrapper.e0fbc71b.js",
+    "url": "assets/js/vendors~LayoutWrapper.59105602.js",
     "revision": "d706a10af69f88574a054b4a6c0cb8d5"
   },
   {
     "url": "en-US/guide/how-to-contribute.html.html",
-    "revision": "ee86d7fe1c01f9829a3869dfe74f45ba"
+    "revision": "b59ffa492c17e19d9db245d2412b7a30"
   },
   {
     "url": "en-US/guide/index.html",
-    "revision": "60f8366838b7a1a1b780fcec4910eca5"
+    "revision": "32b018f48d0c1a2d0063e5c3e18ea76d"
   },
   {
     "url": "en-US/index.html",
-    "revision": "0714ffd61572c61b26bde523219281e8"
+    "revision": "f2e4ec883f236f077ca59a845cae9d54"
   },
   {
     "url": "en-US/update-log.html.html",
-    "revision": "e6f5c6b4ed0edc4cc75aba76961163a5"
+    "revision": "b98e0f508948c9b5b8ffb3ee1977d9dd"
   },
   {
     "url": "guide/how-to-contribute.html.html",
-    "revision": "cd8fd00b089146b71de8c1bc9109fea2"
+    "revision": "7a4b6b51ccf506513d347cdacb17a712"
   },
   {
     "url": "guide/index.html",
-    "revision": "87184f631bebf6ba9374fd14884380b3"
+    "revision": "ea65eb4f42d54d9d18ee959d9664ceca"
   },
   {
     "url": "images/1560316346448.png",
@@ -565,187 +565,187 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "6beaa4ecc87047085c4ab47c801b9c56"
+    "revision": "be9bd6a29cac6352ffb3f63e973819cd"
   },
   {
     "url": "knowledge/code-audit/index.html",
-    "revision": "b72f1e663219ab40b26c4661b49cdd40"
+    "revision": "3f67aaedb6fe65329608ad5ae6df6770"
   },
   {
     "url": "knowledge/code-audit/php-code-audit.html.html",
-    "revision": "7e8158bfa797b2bb0b0ad003f3ea0ad4"
+    "revision": "a5d34ed610f9fe8215855148eedcdf4a"
   },
   {
     "url": "knowledge/ctf/deserialize-byte-escape.html.html",
-    "revision": "8f27aabc98928aa1f83c37e8285c1514"
+    "revision": "414168a3e2365d4f01582782975926a0"
   },
   {
     "url": "knowledge/ctf/index.html",
-    "revision": "03f81996c5ad8297c6766e7d8f0342d6"
+    "revision": "26c6009a9b5b6d0f9109d692feb55b10"
   },
   {
     "url": "knowledge/ctf/js-prototype-chain-pollution.html.html",
-    "revision": "c46efbcf03963d2237fab189580795dc"
+    "revision": "32d69bf4424151833a66b1d75357e6f0"
   },
   {
     "url": "knowledge/ctf/RSA.html.html",
-    "revision": "2bf76f10d4f89ad026f03a2b9d127c5c"
+    "revision": "c83e0e40c6024a3172a77e62a9393b11"
   },
   {
     "url": "knowledge/ctf/ssrf-gopher.html.html",
-    "revision": "45d7f472d580be721f595b218892c88a"
+    "revision": "3dcfee3ebcbb7b484d18e67c773c35f0"
   },
   {
     "url": "knowledge/ctf/Volatility.html.html",
-    "revision": "c4b9b29f4c7ca4dec2f66c476e968ddc"
+    "revision": "d86c38fce282aa4c4e01e4ed9de8cf17"
   },
   {
     "url": "knowledge/ctf/xxe-bypass-payload.html.html",
-    "revision": "6b8252c771af23d4d4aed45a0dfef749"
+    "revision": "654ca3396480f6c9e50c5f6850a92acc"
   },
   {
     "url": "knowledge/hw/back-counter.html.html",
-    "revision": "08795f14d346397be20f08b4b3281235"
+    "revision": "f5171b922e36d58f088f6b477d721230"
   },
   {
     "url": "knowledge/hw/boundary-info.html.html",
-    "revision": "2c012f45281ce3a4d604d066676c3bb2"
+    "revision": "107d3ae132fd583c7f84a55e838df921"
   },
   {
     "url": "knowledge/hw/cc.html.html",
-    "revision": "b15813ecb412865b23571822ec425a8b"
+    "revision": "6938d19f9e819a18af3664b16cba2c67"
   },
   {
     "url": "knowledge/hw/checklist.html.html",
-    "revision": "124430fcfa96d6da96b2707528f3ccfb"
+    "revision": "76d4ded81811398bee0e272de785867c"
   },
   {
     "url": "knowledge/hw/defense-assets.html.html",
-    "revision": "e2ebdbbbf3a1a53e841e6d4211e2d81f"
+    "revision": "71f1f9b5458c04b4eca60473d51e4351"
   },
   {
     "url": "knowledge/hw/del-log.html.html",
-    "revision": "1f3a28b6d266ca5fdd2ae23c6b19bbcc"
+    "revision": "d7f1b8770c10820c36537be2904c6883"
   },
   {
     "url": "knowledge/hw/domain-pentest.html.html",
-    "revision": "f0d3f31f88c2317c0d8b2604a284b409"
+    "revision": "eb995c0a101fab8ab8431d13e46cad4c"
   },
   {
     "url": "knowledge/hw/emergency-response.html.html",
-    "revision": "ad3fc3d03f12a6474e6e2f61841822e0"
+    "revision": "6c7a51f0e9d8407f07896a02333df112"
   },
   {
     "url": "knowledge/hw/index.html",
-    "revision": "41b73dce053c2335ad2b8ab1ac24cb9c"
+    "revision": "ebb6f323cb0656f6ce79884f3cae9f34"
   },
   {
     "url": "knowledge/hw/lan-info.html.html",
-    "revision": "7c0d0b2b1d8bc5c02f0d3cccfb4a9df8"
+    "revision": "75995f447c83e0973f6883564767a1dc"
   },
   {
     "url": "knowledge/hw/linux-baselinesec.html.html",
-    "revision": "0cd8a446ae36fd02fe4499b667d16744"
+    "revision": "02236b3f266ced0342188c8f82057e2f"
   },
   {
     "url": "knowledge/hw/monitor-read.html.html",
-    "revision": "49d4396a1d67e73b4e8708599e1782bd"
+    "revision": "993a34d852379864287f3f1b5caaff39"
   },
   {
     "url": "knowledge/hw/net-proxy.html.html",
-    "revision": "11a49e8b2b75ea3427bf7fcd5ee62fa9"
+    "revision": "42c0b6962a012327cfee21962a9efe7c"
   },
   {
     "url": "knowledge/hw/ntml-hash.html.html",
-    "revision": "605d3ee4877dbbcfef90a547da3ca9ea"
+    "revision": "629c40819def875989070753798912ef"
   },
   {
     "url": "knowledge/hw/os-shell.html.html",
-    "revision": "7f684ea93f3f1d10faa73d3d3282fa80"
+    "revision": "e5539dfed8440f85cb04d2c2450a4f7c"
   },
   {
     "url": "knowledge/hw/to-root.html.html",
-    "revision": "d43e39612c1df509781586a341368abd"
+    "revision": "0f72d3e8c312be22528991ade185389a"
   },
   {
     "url": "knowledge/hw/webshell.html.html",
-    "revision": "7681413c2b442a6d4fdae175e2d7efef"
+    "revision": "51ab355c80538d02bb559d9386856c91"
   },
   {
     "url": "knowledge/hw/windows-baselinesec.html.html",
-    "revision": "5f343660919385297ec669a784097c14"
+    "revision": "e712a406386bbfaaaa447db73b4743d3"
   },
   {
     "url": "knowledge/intranet/Cobalt-Strike.html.html",
-    "revision": "e6ccd0559b105ac1bd136f853d98154f"
+    "revision": "04c42c7e16d99605113d62e22db75c99"
   },
   {
     "url": "knowledge/intranet/index.html",
-    "revision": "c8de07a83cb699fcb4e7391f884b6610"
+    "revision": "847c0ff9297552c65cd378ebd23caac2"
   },
   {
     "url": "knowledge/web/code-injection.html.html",
-    "revision": "3aa6fc433b1a3ed6b735954c57ead888"
+    "revision": "e7afed6343c0ad8f47672acc32a7d21e"
   },
   {
     "url": "knowledge/web/csrf-ssrf.html.html",
-    "revision": "e6187dbc3379c954a8c57b1d77957e56"
+    "revision": "47a3a6b4090d2836e9f75f5a2857a1af"
   },
   {
     "url": "knowledge/web/expression-language-injection.html.html",
-    "revision": "98be037948233dab33a9e91464f56de9"
+    "revision": "fc5883e6266c5f57a8427e1b144b8f6f"
   },
   {
     "url": "knowledge/web/file-download.html.html",
-    "revision": "c119a0df162865e54778bd7084f1d428"
+    "revision": "de530f75b30bfa09aa8579d43f45dcd8"
   },
   {
     "url": "knowledge/web/file-includes.html.html",
-    "revision": "3dff7df4d3271e2085fecd5d3e7c8f0d"
+    "revision": "5f3b15b043033419c81693c5fca97e78"
   },
   {
     "url": "knowledge/web/file-upload.html.html",
-    "revision": "b6224a80757dadff27a19c128a7de26c"
+    "revision": "d790890d1d729224a97a44d727c97aad"
   },
   {
     "url": "knowledge/web/index.html",
-    "revision": "e24b556bd42dd3287d8ef8840623b59c"
+    "revision": "93004d904236e37cbc066c208d554e33"
   },
   {
     "url": "knowledge/web/jwt-cookie.html.html",
-    "revision": "ddb3bc7266f80e15f960becd4080b194"
+    "revision": "9d12c0488d2ce17b8312a61e148b0439"
   },
   {
     "url": "knowledge/web/logical-vulns.html.html",
-    "revision": "5ddca591ad40370a7e297e65824fbb22"
+    "revision": "1b051d39ba780e1d5da6bf0d831c521e"
   },
   {
     "url": "knowledge/web/phpsec.html.html",
-    "revision": "138124d86fcffd8e0130d9ded7f5700b"
+    "revision": "858a23853d2554171f6615dd62b59527"
   },
   {
     "url": "knowledge/web/same-origin-policy.html.html",
-    "revision": "3100f777762f7fb6cdc1e484b4ec9b93"
+    "revision": "671ea138bb4ba08fb263986fbd0bfae4"
   },
   {
     "url": "knowledge/web/session-sec.html.html",
-    "revision": "ab2452cd36d90c256181c89cea5ed282"
+    "revision": "aa2e0cb0f5c0bbd42ab99239977c26f4"
   },
   {
     "url": "knowledge/web/source-leaked.html.html",
-    "revision": "a84ac35eb65a3a20eb645bf5049a3a7c"
+    "revision": "b35814ec2a21753055bc1f8149931acb"
   },
   {
     "url": "knowledge/web/sql-injection.html.html",
-    "revision": "96415faa8fa533905f52f65eb1c909ec"
+    "revision": "297117aa08cc236fc5d26d76347108a4"
   },
   {
     "url": "knowledge/web/xss.html.html",
-    "revision": "7229b2da489d10e0dd895df033821aeb"
+    "revision": "d1435f87ad69b320867220891549b586"
   },
   {
     "url": "knowledge/web/xxe.html.html",
-    "revision": "baa9683cc57b931a3e39405ef2ec087e"
+    "revision": "5c1ee5ad43c8c37e2c8d522a775da057"
   },
   {
     "url": "logo-192x192.png",
@@ -785,7 +785,7 @@ self.__precacheManifest = [
   },
   {
     "url": "update-log.html.html",
-    "revision": "ac9cf32ad00083e5b2ae69a80f6ab02f"
+    "revision": "7a7e618f901745379eeb065ff5a85d0c"
   },
   {
     "url": "wechat.png",

