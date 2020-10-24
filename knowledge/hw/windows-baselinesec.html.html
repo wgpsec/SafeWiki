@@ -14,10 +14,10 @@
     </script>
     
     <!--loadable-components prefetch  -->
-    <link data-chunk="app" rel="preload" as="script" href="/assets/js/app.aa1a827a.js">
-<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/vendors~LayoutWrapper.aa1a827a.js">
-<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/LayoutWrapper.aa1a827a.js">
-<link data-chunk="knowledge/hw/windows-baselinesec.md" rel="preload" as="script" href="/assets/js/knowledge/hw/windows-baselinesec.md.aa1a827a.js"> 
+    <link data-chunk="app" rel="preload" as="script" href="/assets/js/app.e0fbc71b.js">
+<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/vendors~LayoutWrapper.e0fbc71b.js">
+<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/LayoutWrapper.e0fbc71b.js">
+<link data-chunk="knowledge/hw/windows-baselinesec.md" rel="preload" as="script" href="/assets/js/knowledge/hw/windows-baselinesec.md.e0fbc71b.js"> 
     <style>pre[class*="language-"].line-numbers {
 	position: relative;
 	padding-left: 3.8em;
@@ -26551,10 +26551,10 @@ ul.anticons-list li.copied:after {
 或者在注册表中设置审核策略，以便当安全性日志满后使系统停止响应。
 默认位置：<code>%SystemRoot%System32WinevtLogsSecurity.evtx</code></p></blockquote><p>系统和应用程序日志存储着故障排除信息，对于系统管理员更为有用。</p><p>安全日志记录着事件审计信息，包括用户验证（登录、远程访问等）和特定用户在认证后对系统做了什么，对于调查人员而言，更有帮助。</p><h2 class="__internal" id="事件日志分析">事件日志分析<a href="#%E4%BA%8B%E4%BB%B6%E6%97%A5%E5%BF%97%E5%88%86%E6%9E%90" aria-hidden="true" class="anchor">#</a></h2><p><strong>对于Windows事件日志分析，不同的EVENT ID代表了不同的意义</strong></p><table><thead><tr><th align="left">事件ID</th><th align="left">说明</th></tr></thead><tbody><tr><td align="left">4624</td><td align="left">登录成功</td></tr><tr><td align="left">4625</td><td align="left">登录失败</td></tr><tr><td align="left">4634</td><td align="left">注销成功</td></tr><tr><td align="left">4647</td><td align="left">用户启动的注销</td></tr><tr><td align="left">4672</td><td align="left">使用超级用户（如管理员）进行登录</td></tr><tr><td align="left">4720</td><td align="left">创建用户</td></tr></tbody></table><p><strong>每个成功登录的事件都会标记一个登录类型，不同登录类型代表不同的方式：</strong></p><table><thead><tr><th align="left">登录类型</th><th align="left">描述</th><th align="left">说明</th></tr></thead><tbody><tr><td align="left">2</td><td align="left">c（Interactive）</td><td align="left">用户在本地进行登录。</td></tr><tr><td align="left">3</td><td align="left">网络（Network）</td><td align="left">最常见的情况就是连接到共享文件夹或共享打印机时。</td></tr><tr><td align="left">4</td><td align="left">批处理（Batch）</td><td align="left">通常表明某计划任务启动。</td></tr><tr><td align="left">5</td><td align="left">服务（Service）</td><td align="left">每种服务都被配置在某个特定的用户账号下运行。</td></tr><tr><td align="left">7</td><td align="left">解锁（Unlock）</td><td align="left">屏保解锁。</td></tr><tr><td align="left">8</td><td align="left">网络明文（NetworkCleartext）</td><td align="left">登录的密码在网络上是通过明文传输的，如FTP。</td></tr><tr><td align="left">9</td><td align="left">新凭证（NewCredentials）</td><td align="left">使用带/Netonly参数的RUNAS命令运行一个程序。</td></tr><tr><td align="left">10</td><td align="left">远程交互，(RemoteInteractive）</td><td align="left">通过终端服务、远程桌面或远程协助访问计算机。</td></tr><tr><td align="left">11</td><td align="left">缓存交互（CachedInteractive）</td><td align="left">以一个域用户登录而又没有域控制器可</td></tr></tbody></table><p><a href="https://support.microsoft.com/zh-cn/help/977519/description-of-security-events-in-windows-7-and-in-windows-server-2008" target="_blank">更多事件ID说明</a></p><p><a href="https://dotblogs.com.tw/kinanson/2017/08/18/145528#1" target="_blank">使用日志分析工具</a></p></section><section class="prev-next-nav"></section></article></div></div></div></div></div></div></div>
      <!--loadable-components render area  -->
-    <script id="__LOADABLE_REQUIRED_CHUNKS__" type="application/json">[54,0,35]</script>
-<script async data-chunk="app" src="/assets/js/app.aa1a827a.js"></script>
-<script async data-chunk="LayoutWrapper" src="/assets/js/vendors~LayoutWrapper.aa1a827a.js"></script>
-<script async data-chunk="LayoutWrapper" src="/assets/js/LayoutWrapper.aa1a827a.js"></script>
-<script async data-chunk="knowledge/hw/windows-baselinesec.md" src="/assets/js/knowledge/hw/windows-baselinesec.md.aa1a827a.js"></script>
+    <script id="__LOADABLE_REQUIRED_CHUNKS__" type="application/json">[56,0,35]</script>
+<script async data-chunk="app" src="/assets/js/app.e0fbc71b.js"></script>
+<script async data-chunk="LayoutWrapper" src="/assets/js/vendors~LayoutWrapper.e0fbc71b.js"></script>
+<script async data-chunk="LayoutWrapper" src="/assets/js/LayoutWrapper.e0fbc71b.js"></script>
+<script async data-chunk="knowledge/hw/windows-baselinesec.md" src="/assets/js/knowledge/hw/windows-baselinesec.md.e0fbc71b.js"></script>
   </body>
 </html>

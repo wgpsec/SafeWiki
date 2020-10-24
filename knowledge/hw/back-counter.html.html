@@ -14,10 +14,10 @@
     </script>
     
     <!--loadable-components prefetch  -->
-    <link data-chunk="app" rel="preload" as="script" href="/assets/js/app.aa1a827a.js">
-<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/vendors~LayoutWrapper.aa1a827a.js">
-<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/LayoutWrapper.aa1a827a.js">
-<link data-chunk="knowledge/hw/back-counter.md" rel="preload" as="script" href="/assets/js/knowledge/hw/back-counter.md.aa1a827a.js"> 
+    <link data-chunk="app" rel="preload" as="script" href="/assets/js/app.e0fbc71b.js">
+<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/vendors~LayoutWrapper.e0fbc71b.js">
+<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/LayoutWrapper.e0fbc71b.js">
+<link data-chunk="knowledge/hw/back-counter.md" rel="preload" as="script" href="/assets/js/knowledge/hw/back-counter.md.e0fbc71b.js"> 
     <style>pre[class*="language-"].line-numbers {
 	position: relative;
 	padding-left: 3.8em;
@@ -26541,10 +26541,10 @@ reg <span class="token function">add</span> HKLM<span class="token punctuation">
 <span class="token comment">#关闭，值为0</span>
 reg <span class="token function">add</span> HKLM<span class="token punctuation">\</span>SYSTEM<span class="token punctuation">\</span>CurrentControlSet<span class="token punctuation">\</span>Control<span class="token punctuation">\</span>SecurityProviders<span class="token punctuation">\</span>WDigest /v UseLogonCredential /t REG_DWORD /d <span class="token number">0</span> /f</code></pre></div><p><strong>Webshell管理工具（冰蝎、蚁剑、哥斯拉等）</strong></p><p>分析工具的流量特征，在WAF等防护设备上添加自定义规则</p><div class="rcpress-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token punctuation">(</span>uri_path * rco <span class="token punctuation">\</span>.<span class="token punctuation">(</span>jsp<span class="token operator">|</span>jspx<span class="token operator">|</span>php<span class="token punctuation">)</span>$<span class="token punctuation">)</span><span class="token operator">&amp;&amp;</span><span class="token punctuation">(</span>method * belong POST<span class="token punctuation">)</span><span class="token operator">&amp;&amp;</span><span class="token punctuation">(</span>request_body * req ^<span class="token punctuation">[</span><span class="token punctuation">\</span>w+/<span class="token punctuation">]</span><span class="token punctuation">{</span><span class="token number">1000</span>,<span class="token punctuation">}</span><span class="token operator">=</span>?<span class="token operator">=</span>?$<span class="token punctuation">)</span></code></pre></div><p><strong>防御mimikatz攻击</strong></p><p><code>mimikatz</code>在抓取明文密码或散列值时，需要Debug权限。</p><p>因为<code>mimikatz</code>需要和<code>lsass</code>进程进行交互，没有<code>Debug</code>权限的话<code>mimikatz</code>将不能读取<code>lsass</code>进程。</p><p>因此，将拥有Debug权限的本地管理员从<code>Administrators</code>组中删除即可。</p><p><strong>其它内网渗透工具</strong></p><blockquote><p>CobaltStrike、Metasploit等c2工具</p><p>frp、nps、reGeorg、ew、Termite、lcx等通道构建工具</p><p>impacket工具包</p><p><strong>具体做法：</strong>分析工具流量特征，在WAF等防护设备上自定义相关规则</p><p><strong>可参考：</strong> <a href="https://xz.aliyun.com/t/7606" target="_blank">加密Webshell“冰蝎” 流量 100%识别</a> </p></blockquote><h1 class="__internal" id="溯源攻击者">溯源攻击者<a href="#%E6%BA%AF%E6%BA%90%E6%94%BB%E5%87%BB%E8%80%85" aria-hidden="true" class="anchor">#</a></h1><blockquote><p>1、通过威胁情报分析，溯源IP	（微步、QAX威胁情报中心等）</p><p>2、反向渗透攻击者VPS</p><p>3、社工攻击者虚拟身份、真实身份（通过攻击者的常用shell特征、VPS地址信息、常用ID等入手）</p><p>如果能确认攻击者的邮箱或QQ等信息，社工库机器人走一波就差不多了</p></blockquote><p>详细过程建议参考以下文章：</p><p><a href="https://paper.seebug.org/945/#357-philipbeekoohk" target="_blank">如何通过一封恶意邮件追踪幕后黑客组织</a></p></section><section class="prev-next-nav"></section></article></div></div></div></div></div></div></div>
      <!--loadable-components render area  -->
-    <script id="__LOADABLE_REQUIRED_CHUNKS__" type="application/json">[54,0,19]</script>
-<script async data-chunk="app" src="/assets/js/app.aa1a827a.js"></script>
-<script async data-chunk="LayoutWrapper" src="/assets/js/vendors~LayoutWrapper.aa1a827a.js"></script>
-<script async data-chunk="LayoutWrapper" src="/assets/js/LayoutWrapper.aa1a827a.js"></script>
-<script async data-chunk="knowledge/hw/back-counter.md" src="/assets/js/knowledge/hw/back-counter.md.aa1a827a.js"></script>
+    <script id="__LOADABLE_REQUIRED_CHUNKS__" type="application/json">[56,0,19]</script>
+<script async data-chunk="app" src="/assets/js/app.e0fbc71b.js"></script>
+<script async data-chunk="LayoutWrapper" src="/assets/js/vendors~LayoutWrapper.e0fbc71b.js"></script>
+<script async data-chunk="LayoutWrapper" src="/assets/js/LayoutWrapper.e0fbc71b.js"></script>
+<script async data-chunk="knowledge/hw/back-counter.md" src="/assets/js/knowledge/hw/back-counter.md.e0fbc71b.js"></script>
   </body>
 </html>

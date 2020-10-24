@@ -14,10 +14,10 @@
     </script>
     
     <!--loadable-components prefetch  -->
-    <link data-chunk="app" rel="preload" as="script" href="/assets/js/app.aa1a827a.js">
-<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/vendors~LayoutWrapper.aa1a827a.js">
-<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/LayoutWrapper.aa1a827a.js">
-<link data-chunk="knowledge/ctf/Volatility.md" rel="preload" as="script" href="/assets/js/knowledge/ctf/Volatility.md.aa1a827a.js"> 
+    <link data-chunk="app" rel="preload" as="script" href="/assets/js/app.e0fbc71b.js">
+<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/vendors~LayoutWrapper.e0fbc71b.js">
+<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/LayoutWrapper.e0fbc71b.js">
+<link data-chunk="knowledge/ctf/Volatility.md" rel="preload" as="script" href="/assets/js/knowledge/ctf/Volatility.md.e0fbc71b.js"> 
     <style>pre[class*="language-"].line-numbers {
 	position: relative;
 	padding-left: 3.8em;
@@ -26698,10 +26698,10 @@ Volatility Foundation Volatility Framework <span class="token number">2.6</span>
 0x000000001de89cb8      <span class="token number">6</span>      <span class="token number">0</span> R--r-d <span class="token punctuation">\</span>Device<span class="token punctuation">\</span>HarddiskVolume2<span class="token punctuation">\</span>Windows<span class="token punctuation">\</span>System32<span class="token punctuation">\</span>notepad.exe
 </code></pre></div><p>dump进程查看文件，发现文件可能被删除</p><p><img src="http://peiqi.tech/buuctf/misc/buuctf-misc-51-2.png"/></p><h4 class="__internal" id="删除数据恢复">删除数据恢复<a href="#%E5%88%A0%E9%99%A4%E6%95%B0%E6%8D%AE%E6%81%A2%E5%A4%8D" aria-hidden="true" class="anchor">#</a></h4><p>使用命令恢复数据</p><p><img src="http://peiqi.tech/buuctf/misc/buuctf-misc-51-3.png"/></p><p>得到百度网盘链接和提取码，下载下来一个加密文件</p><p>寻找加密进程</p><p><img src="http://peiqi.tech/buuctf/misc/buuctf-misc-51-4.png"/></p><p>dump进程下来 使用EFDD解密vol文件</p><p><code>得到密码:uOjFdKu1jsbWI8N51jsbWI8N5</code></p><p>再使用得到的密码TrueCrypt挂载上去解密</p><p><img src="http://peiqi.tech/buuctf/misc/buuctf-misc-51-6.png"/></p><p>得到一个加密的flag压缩包</p><h4 class="__internal" id="gimp还原">GIMP还原<a href="#gimp%E8%BF%98%E5%8E%9F" aria-hidden="true" class="anchor">#</a></h4><p>把 mspaint.exe (pid 2648) dump下来，使用GIMP还原</p><p><img src="http://peiqi.tech/buuctf/misc/buuctf-misc-51-5.png"/></p><p><code>得到密码 :1YxfCQ6goYBD6Q</code></p><p>打开加密zip文件得到flag</p><p><code>RoarCTF{wm_D0uB1e_TC-cRypt}</code></p></section><section class="prev-next-nav"></section></article></div></div></div></div></div></div></div>
      <!--loadable-components render area  -->
-    <script id="__LOADABLE_REQUIRED_CHUNKS__" type="application/json">[54,0,13]</script>
-<script async data-chunk="app" src="/assets/js/app.aa1a827a.js"></script>
-<script async data-chunk="LayoutWrapper" src="/assets/js/vendors~LayoutWrapper.aa1a827a.js"></script>
-<script async data-chunk="LayoutWrapper" src="/assets/js/LayoutWrapper.aa1a827a.js"></script>
-<script async data-chunk="knowledge/ctf/Volatility.md" src="/assets/js/knowledge/ctf/Volatility.md.aa1a827a.js"></script>
+    <script id="__LOADABLE_REQUIRED_CHUNKS__" type="application/json">[56,0,13]</script>
+<script async data-chunk="app" src="/assets/js/app.e0fbc71b.js"></script>
+<script async data-chunk="LayoutWrapper" src="/assets/js/vendors~LayoutWrapper.e0fbc71b.js"></script>
+<script async data-chunk="LayoutWrapper" src="/assets/js/LayoutWrapper.e0fbc71b.js"></script>
+<script async data-chunk="knowledge/ctf/Volatility.md" src="/assets/js/knowledge/ctf/Volatility.md.e0fbc71b.js"></script>
   </body>
 </html>

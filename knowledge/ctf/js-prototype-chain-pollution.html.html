@@ -14,10 +14,10 @@
     </script>
     
     <!--loadable-components prefetch  -->
-    <link data-chunk="app" rel="preload" as="script" href="/assets/js/app.aa1a827a.js">
-<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/vendors~LayoutWrapper.aa1a827a.js">
-<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/LayoutWrapper.aa1a827a.js">
-<link data-chunk="knowledge/ctf/js-prototype-chain-pollution.md" rel="preload" as="script" href="/assets/js/knowledge/ctf/js-prototype-chain-pollution.md.aa1a827a.js"> 
+    <link data-chunk="app" rel="preload" as="script" href="/assets/js/app.e0fbc71b.js">
+<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/vendors~LayoutWrapper.e0fbc71b.js">
+<link data-chunk="LayoutWrapper" rel="preload" as="script" href="/assets/js/LayoutWrapper.e0fbc71b.js">
+<link data-chunk="knowledge/ctf/js-prototype-chain-pollution.md" rel="preload" as="script" href="/assets/js/knowledge/ctf/js-prototype-chain-pollution.md.e0fbc71b.js"> 
     <style>pre[class*="language-"].line-numbers {
 	position: relative;
 	padding-left: 3.8em;
@@ -26575,10 +26575,10 @@ router.post(&quot;/Privilege&quot;, function (req, res, next) {
     }
 });</code></pre></div><p>可以看到此处存在一个赋值操作，同时键名和键值都可控</p><p><img src="/images/js-prototype-chain-pollution/4.png" alt="4.png"/></p><p>req.session.knight 添加了新的属性</p><p><img src="/images/js-prototype-chain-pollution/5.png" alt="5.png"/></p><p>结合上面所说，我们可以直接利用这里给原链赋值，从而给之后的所有原型都加上一个新的属性，然后验证新添加的键名，并传入键值即可达成目标</p><p>req.session.knight 的上上层是 null ，给它的原链加一个新属性</p><p><img src="/images/js-prototype-chain-pollution/7.png" alt="7.png"/></p><p>添加成功</p><p><img src="/images/js-prototype-chain-pollution/6.png" alt="6"/></p><p>由于 Admin 没有这个变量就会通过原型链向上搜索，从而找到我们刚添加的 newpsw</p><p><img src="/images/js-prototype-chain-pollution/8.png" alt="8.png"/></p><p>可以发现我们成功污染了原型链，并通过了验证</p></section><section class="prev-next-nav"></section></article></div></div></div></div></div></div></div>
      <!--loadable-components render area  -->
-    <script id="__LOADABLE_REQUIRED_CHUNKS__" type="application/json">[54,0,15]</script>
-<script async data-chunk="app" src="/assets/js/app.aa1a827a.js"></script>
-<script async data-chunk="LayoutWrapper" src="/assets/js/vendors~LayoutWrapper.aa1a827a.js"></script>
-<script async data-chunk="LayoutWrapper" src="/assets/js/LayoutWrapper.aa1a827a.js"></script>
-<script async data-chunk="knowledge/ctf/js-prototype-chain-pollution.md" src="/assets/js/knowledge/ctf/js-prototype-chain-pollution.md.aa1a827a.js"></script>
+    <script id="__LOADABLE_REQUIRED_CHUNKS__" type="application/json">[56,0,15]</script>
+<script async data-chunk="app" src="/assets/js/app.e0fbc71b.js"></script>
+<script async data-chunk="LayoutWrapper" src="/assets/js/vendors~LayoutWrapper.e0fbc71b.js"></script>
+<script async data-chunk="LayoutWrapper" src="/assets/js/LayoutWrapper.e0fbc71b.js"></script>
+<script async data-chunk="knowledge/ctf/js-prototype-chain-pollution.md" src="/assets/js/knowledge/ctf/js-prototype-chain-pollution.md.e0fbc71b.js"></script>
   </body>
 </html>
